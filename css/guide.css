@@ -1,0 +1,461 @@
+/*主页面*/
+a:hover{
+    color: #cfae69;
+}
+.wrapper {
+    width: 100%;
+    height: 2400px;
+    margin-top: -558px;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    background: url("../images/guide/bigbg.jpg") 180px 0 no-repeat;
+}
+
+/*做侧 天刀logo*/
+.logo {
+    width: 152px;
+    height: 128px;
+    position: absolute;
+    padding-top: 37px;
+    padding-left: 28px;
+    display: block;
+    background-color: #282824;
+
+}
+.logo a {
+    width: 131px;
+    height: 47px;
+    background: url("../images/guide/sprall1.png");
+    display: block;
+    text-indent: -9999px;
+    overflow: visible;
+}
+
+/*左侧灰色整体菜单栏*/
+.slider {
+    width: 180px;
+    height: 100%;
+    background: url("../images/guide/spr-all.png") -185px 1285px repeat-y;
+    position: absolute;
+    top: 162px;
+    left:0;
+}
+
+/*菜单栏*/
+.nav {
+    /*margin-top: 162px;*/
+    width: 180px;
+    height: 760px;
+    z-index: 10;
+}
+.navfs .version {
+    width: 180px;
+    height: 162px;
+    border: 1px solid red;
+}
+.category {
+    width: 180px;
+    height: 70px;
+    background: url("../images/guide/sprall1.png") no-repeat;
+    cursor: pointer;
+    background-color: rgba(000,000,000,.4);
+
+}
+.category-dd {
+    width: 180px;
+    height: 92px;
+    font-size: 16px;
+}
+.category-dd1{
+    width: 180px;
+    height: 46px;
+    text-align: center;
+    display: block;
+    line-height: 46px;
+}
+.category-dd1 a {
+    color: #cfae69;
+}
+.category-dd2{
+    width: 180px;
+    height: 46px;
+    text-align: center;
+    display: block;
+    line-height: 46px;
+}
+
+.navfs .guide {
+    width: 180px;
+    height: 300px;
+}
+.guide .category{
+    width: 180px;
+    height: 70px;
+    background-image: url("../images/guide/sprall2.png");
+}
+/*01游戏简介 02进入游戏 03游戏界面 04基本操作 05体验*/
+.guide .category-dd {
+    width: 180px;
+    height: 230px;
+    /*background-color: red;*/
+
+}
+.guide .category-dd .sn  {
+    width: 180px;
+    height: 45px;
+    display: block;
+    line-height: 42px;
+    background-color: rgba(000,000,000,.5);
+    margin-top: 1px;
+
+
+
+}
+
+.guide .category-dd .md {
+    width: 180px;
+    height: 45px;
+    display: block;
+    line-height: 42px;
+    margin-top: 1px;
+    background-color: rgba(000,000,000,.5);
+}
+.guide .category-dd .p1 {
+    width: 180px;
+    height: 45px;
+    display: block;
+    line-height: 42px;
+    margin-top: 1px;
+    background-color: rgba(000,000,000,.5);
+}
+.guide .category-dd .he {
+    width: 180px;
+    height: 45px;
+    display: block;
+    line-height: 42px;
+    margin-top: 1px;
+    background-color: rgba(000,000,000,.5);
+
+
+
+}
+.guide .category-dd .vg {
+    width: 180px;
+    height: 46px;
+    display: block;
+    line-height: 42px;
+    margin-top: 1px;
+    background-color: rgba(000,000,000,.5);
+
+
+}
+
+/*左侧栏 下面 游戏特色*/
+.navfs .feature{
+    width: 180px;
+    height: 70px;
+    display: block;
+}
+
+.navfs .feature .category {
+    width:100%
+    height: 70px;
+    display: block;
+
+}
+ .feature .category a{
+    width: 180px;
+    height: 70px;
+    display: block;
+     background-image: url("../images/guide/sprallr2c1.png");
+     text-indent: -9999px;
+     overflow: visible;
+}
+
+/*左侧 下面 世界观*/
+.world .category a {
+    width: 180px;
+    height: 70px;
+    display: block;
+    background-image: url("../images/guide/sprallr2c2.png");
+    text-indent: -9999px;
+    overflow: visible;
+}
+
+
+
+/*左侧 下面 大世界*/
+
+.maps .category a {
+    width: 180px;
+    height: 70px;
+    display: block;
+    background-image: url("../images/guide/sprallr2c3.png");
+    text-indent: -9999px;
+    overflow: visible;
+}
+
+
+/*左侧 下面 门派大世界*/
+.league .category a {
+    width: 180px;
+    height: 70px;
+    display: block;
+    background-image: url("../images/guide/sprallr2c4.png");
+    text-indent: -9999px;
+    overflow: visible;
+}
+
+
+/*左边二维码*/
+
+.pic {
+    width: 176px;
+    height: 176px;
+    margin-bottom: 30px;
+    text-indent: -9999px;
+    overflow: visible;
+    background: url("../images/guide/ewm.png") no-repeat;
+}
+
+/*左边  返回官网首页*/
+.togw {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background: #63563A;
+    margin: auto;
+}
+.togw a {
+    color: #C2B8A1;
+}
+.togw:hover{
+    background-color: rgba(194,184,161,.8);
+}
+
+
+/*中间头部 新手指南 标题栏*/
+.header {
+    height: 182px;
+    margin: 0 0 0 320px;
+    padding: 90px 0 0;
+    text-align: left;
+}
+.header .slogo {
+    width: 100%;
+    height: 122px;
+    text-indent: -9999px;
+    overflow: visible;
+    background: url("../images/guide/spr-all.png") -365px 0px no-repeat;
+}
+
+.snav{
+    width: 760px;
+    line-height: 58px;
+    top: 220px;
+    height: 60.4px;
+    cursor: pointer;
+    z-index: 15;
+    background-color: #f0f2f2;
+}
+.fixed {
+    position: fixed;
+    left: 320px;
+    top: 0px;
+}
+
+
+.snav a {
+    width: 151px;
+    height: 58.4px;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+
+    float: left;
+    margin-left: -1px;
+    border: 1px solid silver;
+
+}
+
+
+/*下面什么是天涯明月刀 开始*/
+.container {
+    width: 760px;
+    position: relative;
+    margin: 0 0 0 320px;
+    height: 400px;
+    text-align: left;
+    margin-top: 10px;
+    background: url("../images/guide/jietu.png") no-repeat;
+
+}
+
+
+
+/*什么是天涯明月刀  上 第一节*/
+.article .fstpart {
+    width: 700px;
+    height: 400px;
+}
+
+
+
+/*武侠世界*/
+.scdpart{
+    width: 360px;
+    height: 294px;
+    position: absolute;
+    bottom: -420px;
+    left: 400px;
+}
+
+.scdpart h2 {
+    width: 360px;
+    height: 60px;
+    font-size: 40px;
+    color: #40c7aa;
+    margin-top: 8px;
+    font-weight:bold;
+}
+.scdpart .wws {
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 170%;
+    padding: 5px 0;
+}
+
+/*八荒门派*/
+.thrpart {
+    width: 900px;
+    height: 401px;
+    position: relative;
+    bottom: -855px;
+
+}
+
+.thrpart .bot {
+    height: 360px;
+    margin-top: 40px;
+    background: url("../images/guide/bg-11.jpg") right no-repeat;
+    border-bottom: 1px dashed #cccccc;
+
+}
+
+.article .lw {
+    padding:  0 400px 0 0;
+    width: 360px;
+    height: 360px;
+}
+
+.thrpart .bot h2 {
+    width: 360px;
+    height: 60px;
+    font-size: 40px;
+    color:#40c7aa;
+    margin: 0 0 8px;
+    font-weight: bold;
+}
+
+.thrpart .bot .wws {
+    width: 360px;
+    font-size: 13px;
+    color: #242424;
+    padding: 5px 0;
+    line-height: 170%;
+}
+
+/*江湖百业*/
+.furpart {
+    width: 900px;
+    height: 361px;
+    position: absolute;
+    left: -140px;
+    bottom: -1218px;
+    background: url("../images/guide/bg-2.jpg")  no-repeat;
+}
+
+.furpart .bot{
+    width: 760px;
+    height: 321px;
+    border-bottom: 1px dashed #cccccc;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.article .rw{
+    padding: 40px 0 0 ;
+}
+
+.furpart .bot h2 {
+    width: 360px;
+    height: 60px;
+    font-size: 40px;
+    color:#40c7aa;
+    margin: 0 0 8px;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+}
+
+.furpart .bot .wws {
+    width: 360px;
+    font-size: 13px;
+    color: #242424;
+    padding: 5px 0;
+    line-height: 170%;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+
+/*天下盟会*/
+.fvepart {
+    width: 900px;
+    height: 440px;
+    position: absolute;
+    left: -140px;
+    bottom: -1658px;
+    /*border: 1px solid red;*/
+}
+
+.fvepart .lw{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 400px;
+    background: url("../images/guide/bg-3.png") right no-repeat;
+}
+
+
+.fvepart  h2 {
+    width: 360px;
+    height: 60px;
+    font-size: 40px;
+    color:#40c7aa;
+    margin: 0 0 8px;
+    font-weight: bold;
+}
+
+.fvepart .wws {
+    width: 360px;
+    font-size: 13px;
+    color: #242424;
+    padding: 5px 0;
+    line-height: 170%;
+}
+
+
+
+
+
+
+
+
+
+
+

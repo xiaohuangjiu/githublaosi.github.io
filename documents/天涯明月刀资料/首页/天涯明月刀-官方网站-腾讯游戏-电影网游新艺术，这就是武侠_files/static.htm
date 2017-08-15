@@ -1,0 +1,40 @@
+(function(w){
+	var _g={
+		d:document,getElems:function(el,o){return el.getElementsByTagName(o);},
+		addEvent:function(a,b,c,d){if(a.addEventListener){a.addEventListener(b,c,d)}else if(a.attachEvent){a.attachEvent('on'+b,c)}}
+	},data={http_link:'http://down.qq.com/wuxia/dltools/2.0.24.7/WuXiaSetup_V2.0.24.7_Full_tgod_signed.exe',hold:null
+	},fblink=function(ele,xfid){
+		var tasks={"sid":xfid,"data":[]},xlink=ele.getAttribute("qhref").split(",");
+		for(var i=0,len=xlink.length;i<len;i++){
+			if(xlink[i].length<1){return;};
+			tasks.data.push({"url":xlink[i]});
+		};
+		return tasks;
+	},matchLinkData=function(_o,_b){
+		switch(_b){
+			case 'cjxf_link':
+				_o.setAttribute('qhref',data[_b]);
+				_g.addEvent(_o,'click',function(cur){
+					console.log(_o.className);
+					XFLIB.startDownload_BatchTaskLixian(fblink(this));
+				},false);
+				break;
+			default:
+				_o.href=data[_b];
+				break;
+		};
+	},writeData=function(){
+		var doms=_g.getElems(_g.d.body,'a'),len=doms.length,natural=null,cur=null;
+		for(var k=0;k<len;k++){
+			cur=doms[k];
+			if(cur.getAttribute('data-dlnatural')){
+				natural=cur.getAttribute('data-dlnatural');
+				cur.removeAttribute('data-dlnatural');
+				if(!data[natural]){continue;};
+				matchLinkData(cur,natural);
+			}else{continue;};
+		};
+	};
+	_g.addEvent(w,'load',writeData,false);
+})(window);
+<!--[if !IE]>|xGv00|55f6131541a6d99446fd857b6183a80b<![endif]-->

@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://wuxia.qq.com/gamedata/features/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-TGideas">
+<meta name="Copyright" content="Tencent">
+<title>天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏</title>
+<meta name="Description" content="天涯那么大，何处不天涯">
+<meta name="Keywords" content="天涯明月刀,天涯明月刀ol,武侠游戏,武侠网游">
+<!-- 设计：lyamnxu | 重构：biggxie | 创建：20150624  | 团队博客：//tgideas.qq.com -->
+<style>
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,input,select,textarea,div,table,td,th,tr,dt,dd,dl{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+nav{display:block;}
+ul,ol{list-style:none;}
+em,i{font-style:normal;}
+strong,b{font-weight:normal;}
+table{border-spacing:0;border-collapse:collapse;}
+img{border:0;vertical-align:middle;-webkit-touch-callout:none;}
+input,select{display:inline-block;vertical-align:middle;font-size:100%;font-family:"\5FAE\8F6F\96C5\9ED1";line-height:150%;}
+a{color:#fff;text-decoration:none;outline:none;hide-focus:expression(this.hideFocus=true);background-color:transparent;-webkit-tap-highlight-color:transparent;}
+dl,dt,dd,div{outline:none;}
+.none{display:none;}.hide{visibility:hidden;}.visb{visibility:visible;}.pa{position:absolute;left:50%;top:50%;}.fontkt{font-family:"kaiti";}
+.loading{padding:5% 0 100%;text-align:center;background:#fbfcfb;}
+html,body{position:relative;width:100%;height:100%;overflow:hidden;}
+body{min-width:1000px;background:#000;font:14px/1.5 arial,"\5FAE\8F6F\96C5\9ED1";color:#fff;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;cursor:default;}
+body > object p{display:none;}
+#footer_ied{position:absolute;bottom:0;left:0;color:#6b6b6b;background:#000;font-size:12px;width:90%;padding:30px 5%;text-align:center;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);
+-webkit-transition:all .2s eease-out 0s;transition:all .2s ease-out 0s;}
+#footer_ied a{color:#6b6b6b;}
+.main{position:relative;width:100%;height:100%;overflow:hidden;}
+.wrapper{position:relative;display:inline-block;*display:inline;width:100%;height:100%;text-align:center;background:#403931 url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-1.jpg) no-repeat 50% 50%;background-size:cover;
+-webkit-transition:all .6s eease-out 0s;transition:all .6s ease-out 0s;}
+.loter .arrow,.parts .words,.united .tit,.profession .tit{background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/icon.png);background-repeat:no-repeat;}
+.logo,.header h1,.msctrl{background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/f-spr.png);background-repeat:no-repeat;}
+.logo{position:absolute;top:70px;left:40px;width:145px;height:51px;background-position:0 -343px;}
+.logo a{display:block;height:100%;text-indent:-9999px;}
+.container{position:relative;width:1000px;height:100%;margin:0 auto;text-align:left;}
+.header h1{left:50%;top:50%;margin:-290px 0 0 -341px;width:682px;height:333px;background-position:0 0;text-indent:-9999px;}
+.parts{position:relative;width:100%;height:100%;background-position:50% 50%;background-repeat:no-repeat;/*background-size:100% auto;*/overflow:hidden;}
+.parts h2{width:100%;text-indent:-9999px;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/h2.png);background-repeat:no-repeat;}
+.parts .gtit{text-align:center;width:100%;}
+.parts .words{width:340px;}
+.parts .words .g{display:block;position:relative;padding:0 0 0 60px;}
+.parts .words .n{position:absolute;top:0;left:0;width:60px;white-space:nowrap;overflow:hidden;text-align:right;}
+.tab .lx{position:absolute;width:100%;height:100%;border:1px solid #87a1b9;margin:-1px 0 0 -1px;z-index:1;-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg);}
+.tab .tit{position:relative;display:block;width:100%;height:100%;text-align:center;z-index:5;}
+.tab .tit .eng{font-family:verdana;opacity:.3;filter:alpha(opacity=30);}
+.plvd{background:#2fc3a3;overflow:hidden;}
+.plvd .triangle{position:absolute;top:50%;left:50%;border-left:3px solid #fff;}
+.plvd .triangle:before,.plvd .triangle:after{content:"";position:absolute;left:0;width:100%;height:0;overflow:hidden;}
+.plvd .triangle:before{border-top:3px solid #fff;top:0;-webkit-transform-origin:0 0;transform-origin:0 0;-webkit-transform:rotateZ(29deg);transform:rotateZ(29deg);}
+.plvd .triangle:after{border-bottom:3px solid #fff;bottom:0;-webkit-transform-origin:0 100%;transform-origin:0 100%;-webkit-transform:rotateZ(-29deg);transform:rotateZ(-29deg);}
+.plvd .played{position:relative;display:block;width:100%;height:100%;}
+.scene{background-color:#496f94;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-2.jpg);}
+.scene h2{height:81px;width:906px;margin:-350px 0 0 -453px;background-position:50% 0;}
+.scene .gtit{margin:-260px 0 0 -50%;}
+.scene .loter{margin:-157px 0 0 -50%;width:479px;height:478px;}
+.scene .pic,.scene .pic img{width:100%;height:100%;}
+.loter .arrow{position:absolute;bottom:40px;width:36px;height:36px;text-indent:-9999px;}
+.loter .prev{background-position:0 0;left:160px;}
+.loter .next{background-position:-123px 0;right:160px;}
+.scene .words{padding:20px 0 0;margin:-140px 0 0 150px;background-position:3px -1157px;}
+.scene .tab{width:150px;height:150px;z-index:1;}
+.scene .tab-1{margin:-105px 0 0 -94px;}
+.scene .tab-2{margin:2px 0 0 13px;}
+.scene .tit{line-height:140px;font-size:30px;cursor:default;}
+.scene .eng{display:block;line-height:100%;margin:-50px 0 0;font-size:10px;color:#202020;-webkit-transform:scale(.8);-webkit-transform-origin:50% 0;}
+.scene .plvd{width:190px;height:190px;margin:95px 0 0 133px;-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg);z-index:2;}
+.scene .triangle{width:60px;height:60px;margin:-40px 0 0 -23px;-webkit-transform:rotateZ(-45deg);transform:rotateZ(-45deg);}
+.figure{background-color:#e7e7e7;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-3.jpg);}
+.figure h2{width:338px;height:82px;margin:-250px 0 0 -495px;background-position:50% -90px;}
+.figure .gtit{margin:-160px 0 0 -490px;text-align:left;color:#292929;}
+.figure .words{padding:20px 0 0;margin:-125px 0 0 -490px;color:#5f5f5f;background-position:-825px -1103px;}
+.figure .faces{margin:70px 0 0 -485px;width:316px;}
+.faces h3{font-size:26px;line-height:130%;color:#292929;border-bottom:1px solid #d5d5d5;}
+.facelists{position:relative;margin:0 0 0 -20px;*width:336px;}
+.facelists .face{position:relative;float:left;width:64px;height:64px;margin:10px 0 0 20px;z-index:1;}
+.facelists .face img{position:absolute;top:0;left:0;display:block;width:100%;height:100%;-webkit-transition:all .2s ease 0s;transition:all .2s ease 0s;}
+.facelists .face:hover{z-index:2;}
+.facelists .face:hover img{width:116px;height:116px;top:-26px;left:-26px;}
+.figure .facemode{width:533px;height:712px;margin:-345px 0 0 -35px;background:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/face.png) no-repeat 50% 50%;}
+.figure .plvd{width:96px;height:96px;margin:180px 0 0 -40px;border-radius:50%;}
+.figure .triangle{width:40px;height:40px;margin:-20px 0 0 -15px;}
+.plot{background-color:#000;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-4.jpg);}
+.plot .inner{position:relative;float:left;width:50%;height:100%;}
+.plot h2{width:338px;height:56px;}
+.plot .plvd{width:116px;height:116px;border-radius:50%;border:3px solid #b5b5b5;background-color:transparent;}
+.plot .triangle,.plot .triangle:before,.plot .triangle:after{border-color:#b5b5b5;}
+.plot .triangle{width:40px;height:40px;margin:-20px 0 0 -15px;}
+.plot .plvd:hover,.plot .plvd:hover .triangle,.plot .plvd:hover .triangle:before,.plot .plvd:hover .triangle:after{border-color:#2fc3a3;}
+.plot .ginfo{width:338px;color:#b7bbba;}
+.lp h2{margin:-40px 0 0 -169px;background-position:50% -196px;}
+.lp .plvd{margin:-200px 0 0 -61px;}
+.lp .ginfo{margin:45px 0 0 -145px;}
+.rp h2{margin:-200px 0 0 -169px;background-position:50% -273px;}
+.rp .plvd{margin:50px 0 0 -61px;}
+.rp .ginfo{margin:-110px 0 0 -115px;}
+.fighting{background-color:#33363d;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-5.jpg);}
+.fighting .line{position:absolute;left:0;top:50%;margin:240px 0 0;width:100%;height:0;border-top:1px dotted #7a8084;overflow:hidden;}
+.fighting h2{height:78px;width:906px;margin:-350px 0 0 -453px;background-position:50% -377px;}
+.fighting .gtit{margin:-260px 0 0 -50%;}
+.fighting .bigvideo{width:721px;height:399px;margin:-210px 0 0 -360px;}
+.fighting .bigvideo a,.fighting .bigvideo img{display:block;width:100%;height:100%;}
+.fighting .FBs{width:96%;margin:230px 0 0 -48%;}
+.FBs .FB{position:relative;float:left;width:16%;text-align:center;}
+.FBs .ac,.FBs .cc{display:block;}
+.FBs .cc{position:relative;width:20px;height:20px;border-radius:50%;margin:0 auto 10px;background:rgba(255,255,255,.5);z-index:2;}
+.FBs .cc:after,.FBs .cc:before{content:"";display:block;position:absolute;top:50%;left:50%;border-radius:50%;overflow:hidden;}
+.FBs .cc:before{visibility:hidden;z-index:1;width:30px;height:30px;margin:-15px 0 0 -15px;background:rgba(255,255,255,.2);}
+.FBs .cc:after{z-index:3;width:14px;height:14px;margin:-7px 0 0 -7px;background:rgba(255,255,255,1);}
+.FBs .fbname{font-size:16px;}
+.FBs p{display:none;color:#999e9d;font-size:12px;padding:5%;text-align:left;text-indent:1em;background:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/ic.png) no-repeat 8px 11px;}
+.FBs .cur .cc:before{visibility:visible;}
+.FBs .cur .cc:after{background:rgba(47,195,163,1);}
+.FBs .cur p{display:block;}
+.united{background-color:#f3f4f8;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-6.jpg);}
+.united h2{width:340px;height:83px;margin:-320px 0 0 -495px;background-position:50% -514px;}
+.united .gtit{margin:-230px 0 0 -490px;text-align:left;color:#292929;}
+.united .words{padding:20px 0 0;margin:-195px 0 0 -490px;color:#5f5f5f;background-position:-825px -1103px;}
+.united .utd{width:620px;height:907px;margin:-464px 0 0 -120px;background:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-role.png) no-repeat 50% 100%;}
+.united .role{top:0;margin:-1px 0 0 -318px;width:839px;height:100%;}
+.united .role img{width:100%;height:100%;}
+.united .plvd{width:96px;height:96px;margin:265px 0 0 10px;border-radius:50%;z-index:10;}
+.united .triangle{width:40px;height:40px;margin:-20px 0 0 -15px;}
+.united .tab{width:120px;height:120px;}
+.united .lx{border-color:#d4dbdb;}
+.united .tangm{margin:19px 0 0 -500px;}
+.united .tianx{margin:107px 0 0 -412px;}
+.united .gaib{margin:19px 0 0 -324px;}
+.united .shenw{margin:107px 0 0 -236px;}
+.united .zhenw{margin:195px 0 0 -324px;}
+.united .taib{margin:195px 0 0 -148px;}
+.united .wud{margin:195px 0 0 -500px;}
+.united .tab:hover .lx,.united .cur .lx{border-color:#2fc3a3;background-color:#2fc3a3;}
+.united .tit{position:absolute;top:50%;left:50%;margin:-40px 0 0 -38px;width:75px;height:80px;text-indent:-9999px;}
+.tangm .tit{background-position:2px -655px;}
+.tianx .tit{background-position:-84px -738px;}
+.gaib .tit{background-position:-164px -648px;}
+.shenw .tit{background-position:-245px -737px;}
+.zhenw .tit{background-position:-170px -825px;}
+.taib .tit{background-position:-329px -821px;}
+.wud .tit{background-position:0 -817px;}
+.cur.tangm .tit,.tangm:hover .tit{background-position:-462px -655px;}
+.cur.tianx .tit,.tianx:hover .tit{background-position:-548px -738px;}
+.cur.gaib .tit,.gaib:hover .tit{background-position:-628px -648px;}
+.cur.shenw .tit,.shenw:hover .tit{background-position:-709px -737px;}
+.cur.zhenw .tit,.zhenw:hover .tit{background-position:-634px -825px;}
+.cur.taib .tit,.taib:hover .tit{background-position:-793px -821px;}
+.cur.wud .tit,.wud:hover .tit{background-position:-464px -817px;}
+.group{background-color:#08090e;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-7.jpg);}
+.group h2{height:76px;width:906px;margin:-350px 0 0 -453px;background-position:50% -658px;}
+.group .gtit{margin:-260px 0 0 -50%;}
+.group .bosses{width:1064px;height:515px;margin:-197px 0 0 -522px;}
+.bosses .boss:hover,.bosses .bn{background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/utd.png);background-repeat:no-repeat;}
+.bosses .boss{position:relative;float:left;height:100%;overflow:hidden;}
+.quwy{width:274px;}
+.tangqf{width:266px;}
+.yezq{width:254px;}
+.liyt{width:270px;}
+.quwy:hover{background-position:0 0;}
+.tangqf:hover{background-position:-274px 0;}
+.yezq:hover{background-position:-540px 0;}
+.liyt:hover{background-position:-794px 0;}
+.bosses .bn{position:absolute;bottom:-144px;opacity:0;left:50%;width:144px;height:144px;margin:0 0 0 -72px;text-indent:-9999px;-webkit-transition:all .2s ease 0s;transition:all .2s ease 0s;}
+.quwy .bn{background-position:-46px -556px;}
+.tangqf .bn{background-position:-315px -556px;}
+.yezq .bn{background-position:-593px -556px;}
+.liyt .bn{background-position:-862px -556px;}
+.bosses .boss:hover .bn{bottom:0;opacity:1;}
+.profession{background-color:#070707;background-image:url(//game.gtimg.cn/images/wuxia/act/a20150623characteristic/bg-8.jpg);}
+.profession h2{height:76px;width:906px;margin:-350px 0 0 -453px;background-position:50% 100%;}
+.profession .gtit{margin:-260px 0 0 -50%;}
+.profession .pic{width:359px;height:724px;margin:-220px 0 0 -100px;}
+.profession .pic img{width:100%;height:100%;}
+.profession .jinfo{margin:-20px 0 0 200px;width:250px;}
+.job h3{font-size:26px;color:#2fc3a3;}
+.job p{color:#c6c6c5;}
+.job .more{display:block;color:#2fc3a3;width:80px;margin:5px 0 0;}
+.profession .tab{width:100px;height:100px;}
+.profession .tab .lx{border-color:#7b7b7b;}
+.profession .tab:hover .lx,.profession .cur .lx{border-color:#2fc3a3;background-color:#2fc3a3;}
+.profession .shashou{margin:-194px 0 0 -458px;}
+.profession .wenshi{margin:-120px 0 0 -384px;}
+.profession .bukuai{margin:-46px 0 0 -310px;}
+.profession .yueling{margin:28px 0 0 -236px;}
+.profession .youxia{margin:-46px 0 0 -458px;}
+.profession .biaoshi{margin:28px 0 0 -384px;}
+.profession .liehu{margin:102px 0 0 -310px;}
+.profession .shangjia{margin:102px 0 0 -458px;}
+.profession .shijing{margin:176px 0 0 -384px;}
+.profession .xuanyan{margin:250px 0 0 -310px;}
+.profession .tit{position:absolute;top:50%;left:50%;margin:-35px 0 0 -33px;width:65px;height:70px;text-indent:-9999px;}
+.shashou .tit{background-position:-455px -103px;}
+.wenshi .tit{background-position:-521px -171px;}
+.bukuai .tit{background-position:-591px -241px;}
+.yueling .tit{background-position:-656px -305px;}
+.youxia .tit{background-position:-455px -241px;}
+.biaoshi .tit{background-position:-521px -305px;}
+.liehu .tit{background-position:-591px -371px;}
+.shangjia .tit{background-position:-457px -371px;}
+.shijing .tit{background-position:-526px -439px;}
+.xuanyan .tit{background-position:-589px -506px;}
+.cur.shashou .tit,.shashou:hover .tit{background-position:10px -103px;}
+.cur.wenshi .tit,.wenshi:hover .tit{background-position:-56px -171px;}
+.cur.bukuai .tit,.bukuai:hover .tit{background-position:-126px -241px;}
+.cur.yueling .tit,.yueling:hover .tit{background-position:-191px -305px;}
+.cur.youxia .tit,.youxia:hover .tit{background-position:10px -241px;}
+.cur.biaoshi .tit,.biaoshi:hover .tit{background-position:-56px -305px;}
+.cur.liehu .tit,.liehu:hover .tit{background-position:-126px -371px;}
+.cur.shangjia .tit,.shangjia:hover .tit{background-position:8px -371px;}
+.cur.shijing .tit,.shijing:hover .tit{background-position:-61px -439px;}
+.cur.xuanyan .tit,.xuanyan:hover .tit{background-position:-124px -506px;}
+.nav{position:absolute;left:50%;top:50%;margin:125px 0 0 -50%;width:100%;font-size:16px;z-index:100;text-align:center;
+-webkit-transform-origin:50% 0;transform-origin:50% 0;}
+.nav .navs{display:inline-block;width:106px;height:106px;line-height:106px;margin:0 15px;border:1px solid #414141;border-radius:50%;color:#414141;text-align:center;/*-webkit-transition:all .2s ease-in 0s;transition:all .2s ease-in 0s;*/}
+.nav .navs:hover{border-color:#2fc3a3;color:#2fc3a3;}
+.flt{position:fixed;top:20px;left:10px;margin:0;width:auto;}
+.flt .navs{float:left;width:72px;height:72px;line-height:72px;margin:0 5px;font-size:16px;color:#fff;border-color:#fff;}
+.blk .navs{color:#000;border-color:#9c9c9c;}
+.nav .cur{background-color:#2fc3a3;border-color:#2fc3a3;color:#fff;cursor:default;}
+.nav .cur:hover{color:#fff;}
+.msctrl{-webkit-transform-origin:50% 100%;transform-origin:50% 100%;position:absolute;left:50%;bottom:15px;margin:0 0 0 -65px;width:85px;height:193px;background-position:0 100%;text-indent:-9999px;}
+.chromeframe{background:#fff9d4;color:#000;padding:10px 0;text-align:center;width:100%;border-bottom:1px solid #000;}
+.chromeframe a{color:#F13C35;}
+.mask{display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.4;filter:alpha(opacity=40);z-index:9990;}
+.layerdt{display:none;/*position:fixed;_*/position:absolute;top:50%;left:50%;margin:-225px 0 0 -400px;width:800px;height:450px;z-index:9996;}
+.layerdt .lydt{position:relative;width:100%;height:100%;background:#000;}
+.layerdt video,.layerdt object,.layerdt embed{width:100%;height:100%;}
+.layerdt .exitlayer{position:absolute;right:-55px;top:-10px;width:55px;height:55px;line-height:55px;font-size:44px;color:#fff;overflow:hidden;text-align:center;text-indent:-9999px;z-index:9997;}
+.layerdt .exitlayer:hover{opacity:0.95;}
+.layerdt .exitlayer:before,.layerdt .exitlayer:after{position:absolute;left:50%;top:50%;margin:0 0 0 -40%;content:"";line-height:0;font-size:0;width:80%;height:1px;background:#fff;}
+.layerdt .exitlayer:before{-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg);}
+.layerdt .exitlayer:after{-webkit-transform:rotateZ(-45deg);transform:rotateZ(-45deg);}
+.fds{position:fixed;_position:absolute;top:50%;right:30px;width:130px;margin-top:-101px;text-align:center;font-size:13px;font-weight:bold;z-index:100000;}
+.fds .ewmarea,.fds .ots,.fds .ota,.fds .ewmarea img{display:block;margin:0 auto;}
+.fds .ewmarea img{width:130px;height:130px;}
+.fds .ots{position:relative;width:100%;background-color:#2c2c2c;}
+.fds .ota{color:#fff;line-height:36px;}
+.fds .ota:hover{background-color:rgba(255,255,255,.05);}
+.fds .blk .ota{color:#c2c2c2;}
+.fds .bds{border-top:1px solid #414141;border-bottom:1px solid #414141;}
+/*.fds .ent,.fds .dlg{text-indent:30px;}*/
+.fds .ent{background-color:#2fc3a3;}
+.fds .dlg{background-color:#cfae69;}
+.fds .totop{display:block;width:45px;height:45px;margin:5px auto 0;background-position:-520px -547px;text-align:left;text-indent:-9999px;}
+.fds .but{float:none;}
+.fds .pretag{width:24px;height:22px;top:50%;left:20px;margin:-11px 0 0;}
+/*.fds .ent .pretag{background-position:-565px -326px;}
+.fds .dlg .pretag{background-position:-660px -328px;}*/
+@media screen and (max-height:900px){
+.header h1{margin-top:-250px;}
+.nav{-webkit-transform:scale(.8);transform:scale(.8);}
+.flt{-webkit-transform:scale(1);transform:scale(1);}
+.flt .navs{width:36px;height:36px;line-height:36px;font-size:12px;}
+.msctrl{-webkit-transform:scale(.6);transform:scale(.6);}
+.fighting .bigvideo{width:520px;height:288px;margin-left:-260px}
+.fighting .FBs{margin-top:145px;}
+.fighting .line{margin:154px 0 0;}
+}
+</style>
+<!--[if lte IE 9]>
+<style>
+html,body{position:relative;width:100%;height:auto;overflow:auto;}
+.main{display:block;position:relative;width:100%;height:auto;}
+.wrapper{display:block;width:100%;height:auto;background-position:50% 0;background-size:auto;}
+.plvd{background-color:transparent;}
+.plvd .triangle{display:none;}
+.tab .lx,.plvd,.FBs .cc{background-image:url(//game.gtimg.cn/features/wuxia/act/a20150623characteristic/forIE.png?v=123);background-repeat:no-repeat;border:0;margin:0;top:50%;left:50%;}
+.parts{min-height:1100px;height:1100px;}
+.scene .tab-1{margin:-100px 0 0 -89px;}
+.scene .tab .lx{width:206px;height:206px;margin:-103px 0 0 -103px;background-position:-296px -148px;}
+.scene .plvd{width:264px;height:264px;background-position:0 -148px;margin:53px 0 0 93px;}
+.figure .plvd{width:97px;height:97px;background-position:0 -519px;}
+.plot .plvd{width:128px;height:128px;background-position:-296px -519px;border:0;}
+.FBs .cur .cc:after,.FBs .cur .cc:before,.FBs .cc:after,.FBs .cc:before{display:none;}
+.FBs .cc{position:absolute;left:50%;top:0;margin:0 0 0 -22px;display:block;width:43px;height:43px;background-color:transparent;background-position:7px -793px;}
+.FBs .fbname{display:block;padding:45px 0 0;}
+.FBs .cur .cc{background-position:-296px -800px;}
+.united .tab .lx{width:165px;height:165px;margin:-82px 0 0 -82px;background-position:-113px -485px;}
+.united .tab:hover .lx,.united .cur .lx{background-position:-113px -655px;background-color:transparent;}
+.united .plvd{width:97px;height:97px;background-position:0 -519px;}
+.united .tangm{margin:27px 0 0 -479px;}
+.united .tianx{margin:111px 0 0 -395px;}
+.united .gaib{margin:27px 0 0 -311px;}
+.united .shenw{margin:111px 0 0 -227px;}
+.united .zhenw{margin:195px 0 0 -311px;}
+.united .taib{margin:195px 0 0 -143px;}
+.united .wud{margin:195px 0 0 -479px;}
+.profession .tab .lx{width:132px;height:132px;margin:-66px 0 0 -66px;background-position:-333px -357px;}
+.profession .tab:hover .lx,.profession .cur .lx{background-position:-370px -658px;background-color:transparent;}
+.nav{top:680px;margin-top:0;}
+.flt{position:fixed;top:20px;left:10px;margin:0;}
+.fighting .line{margin:251px 0 0;}
+#footer_ied{position:static;}
+.layerdt .exitlayer{text-indent:0;}
+.layerdt .exitlayer:before,.layerdt .exitlayer:after{display:none;}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.nav .navs{background-image:url(//game.gtimg.cn/features/wuxia/act/a20150623characteristic/forIE.png);background-repeat:no-repeat;}
+.nav .navs{border:0;background-position:-140px 0;}
+.flt .navs{width:72px;height:72px;line-height:68px;font-size:16px;background-position:-287px 0;}
+.blk .navs{color:#000;border-color:#9c9c9c;background-position:-287px -73px;}
+.nav .cur{background-color:transparent;background-position:-370px 0;}
+</style>
+<![endif]-->
+<link href="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/ost.min.css" rel="stylesheet" type="text/css"></head>
+<body style="padding-top: 0px;">
+<div class="main">
+<div class="wrapper" id="wrap">
+	<div class="parts header">
+		<strong class="logo"><a class="wuxia" href="http://wuxia.qq.com/" target="_blank" title="天涯明月刀">天涯明月刀</a></strong>
+		<div class="container"><h1 class="pa">天涯那么大 何处不天涯</h1></div>
+		<span class="msctrl">滚动鼠标操作</span>
+	</div>
+	<div class="parts scene">
+		<div class="container">
+			<h2 class="pa">天高海阔</h2>
+			<p class="pa gtit">极远的地方才叫天涯</p>
+			<div class="pa loter">
+				<div class="pic" id="map"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/bashu.png"></div>
+				<a class="arrow prev" href="javascript:mapart.turnPage(-1);">&lt;</a>
+				<a class="arrow next" href="javascript:mapart.turnPage(1);">&gt;</a>
+			</div>
+			<p class="pa words fontkt">
+				<span class="g"><b class="n">傅红雪：</b>这天下有七把最快的刀。</span>
+				<span class="g"><b class="n">叶开：</b>第一把刀是不是叫……海阔天空，浪迹天涯？</span>
+				<span class="g"><b class="n">傅红雪：</b>我以为你只懂风花雪月。</span>
+				<span class="g"><b class="n">叶开：</b>大好河山，不如共醉天涯。</span>
+			</p>
+			<div class="bnts">
+				<span class="pa tab tab-1"><em class="lx"></em><a class="tit" href="javascript:;">场景<i class="eng">SCENARIO</i></a></span>
+				<span class="pa tab tab-2"><em class="lx"></em><a class="tit" href="javascript:;">天气<i class="eng">WEATHER</i></a></span>
+				<span class="pa plvd"><i class="triangle"></i><a class="played" href="javascript:glb.layerEvent.showLayer(7);"></a></span>
+			</div>
+		</div>
+	</div>
+	<div class="parts figure">
+		<div class="container">
+			<h2 class="pa">千人千面</h2>
+			<p class="pa gtit">每个人的样子 就是他的故事</p>
+			<p class="pa words fontkt">
+				<span class="g"><b class="n">公子羽：</b>谁戴上了青铜面具，谁就是武林中最有权势的人</span>
+				<span class="g"><b class="n">明月心：</b>我望着你的时候，更希望看见的不是面具，而是你的样子。</span>
+				<span class="g"><b class="n">公子羽：</b>只要看到一个人穿什么，做什么，就能知道他心里在想什么。</span>
+				<span class="g"><b class="n">明月心：</b>而明月本没有心。</span>
+			</p>
+			<div class="pa faces">
+				<h3 class="fontkt">捏脸效果展示</h3>
+				<ul class="facelists">
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-1.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-2.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-3.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-4.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-5.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-6.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-7.jpg" alt="捏脸效果"></li>
+					<li class="face"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/face-8.jpg" alt="捏脸效果"></li>
+				</ul>
+			</div>
+			<div class="pa facemode"></div>
+			<div class="bnts">
+				<span class="pa plvd"><i class="triangle"></i><a class="played" href="javascript:glb.layerEvent.showLayer(8);"></a></span>
+			</div>
+		</div>
+	</div>
+	<div class="parts plot">
+		<div class="container">
+			<div class="inner lp">
+				<div class="bnts">
+					<span class="pa plvd"><i class="triangle"></i><a class="played" href="javascript:glb.layerEvent.showLayer(9);"></a></span>
+				</div>
+				<h2 class="pa">武林第一人</h2>
+				<p class="pa ginfo">青龙会，曾是天下间最神秘，也最强大的组织。<br>数十年来，却成为江湖中血雨腥风的根源。<br>青龙会残暴不仁、滥杀无辜，令得武林中，人人自危。</p>
+			</div>
+			<div class="inner rp">
+				<h2 class="pa">天下盟会</h2>
+				<p class="pa ginfo">燕云血战之后，白玉京自江湖中消失。<br>方龙香独揽大权、自把自为。四大龙首各怀抱负，志在江湖，先后出走；<br>百晓生创寒江城；上官金虹创帝王州；<br>子桑不寿创水龙吟；杨延玉创万里沙。<br>四大盟会，平分天下，与青龙会相抗衡。</p>
+				<div class="bnts">
+					<span class="pa plvd"><i class="triangle"></i><a class="played" href="javascript:glb.layerEvent.showLayer(10);"></a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="parts fighting">
+		<div class="line"></div>
+		<div class="container">
+			<h2 class="pa">形随意动</h2>
+			<p class="pa gtit">每一拳都打到实处，才叫武功</p>
+			<div class="pa bigvideo" id="bigvideo"><a href="javascript:glb.layerEvent.showLayer(11);"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/v.jpg" alt="视频"></a></div>
+			<div class="pa FBs">
+				<ul class="FBlists" id="FBlist">
+					<li class="FB cur">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(0,8);">
+							<em class="cc"></em>
+							<b class="fbname fontkt">夜探郡王府</b>
+						</a>
+						<p>东坪郡王未曾谋反之时，亦曾是沙场上的一代名将，为国为民，血染千秋。而如今他掀起滔天巨浪，唯一原因，便是担心朝廷对西夏与辽人怀柔退让，终有一日，我大宋子民会被异族欺负了去。</p>
+					</li>
+					<li class="FB">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(1,8);"><em class="cc"></em><b class="fbname fontkt">荡平龙首山</b></a>
+						<p>江湖中曾有七大天王结义，其中老七“鹰王”武功最高，亦有侠肝义胆，为人称道。然而鹰眼老七归隐龙首山之后，其子殷天翼却迷恋女色、勾结青龙会，几乎将整个十二连环坞都活活葬送……</p>
+					</li>
+					<li class="FB">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(2,8);">
+							<em class="cc"></em>
+							<b class="fbname fontkt">鏖战郡王府</b>
+						</a>
+						<p>东坪郡王未曾谋反之时，亦曾是沙场上的一代名将，为国为民，血染千秋。而如今他掀起滔天巨浪，唯一原因，便是担心朝廷对西夏与辽人怀柔退让，终有一日，我大宋子民会被异族欺负了去。</p>
+					</li>
+					<li class="FB">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(3,8);">
+							<em class="cc"></em>
+							<b class="fbname fontkt">奇袭血衣楼</b>
+						</a>
+						<p>血衣楼乃是青龙会麾下最耸人听闻的杀手组织，四盟八荒若不想再步步落于人后，就必须想办法反戈一击——但血衣楼总部绝不好闯。不信，你们听那到处回荡着的诡异声音……</p>
+					</li>
+					<li class="FB">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(4,8);">
+							<em class="cc"></em>
+							<b class="fbname fontkt">强袭神武门</b>
+						</a>
+						<p>杜云松与马芳玲这对夫妇，何其疯狂，却又何其顽强。孤魂段常，郝厨子，苗天王，每个人的背后都有一段往事。而所有往事的尽头，是不死不休的战斗，亦是不离不弃的痴情。</p>
+					</li>
+					<li class="FB">
+						<a class="ac" href="javascript:fbs.OnlyClkBut(5,8);">
+							<em class="cc"></em>
+							<b class="fbname fontkt">雨夜镇天牢</b>
+						</a>
+						<p>开封为首善之地，却也是首恶之庄。蛇虫鼠蚁，藏污纳垢；一条黑街，一场夜雨。天牢赫赫，镇不住恶人的心肠；战意纵横，盖不过我八荒子弟的侠骨豪情！</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="parts united">
+		<div class="container">
+			<h2 class="pa">八荒论剑</h2>
+			<p class="pa gtit">八荒独立江湖外，八荒之外无江湖</p>
+			<p class="pa words fontkt">
+				<span class="g" style="padding-left:0;">有人的地方就有恩怨，有恩怨的地方就是江湖。</span>
+				<span class="g" style="padding-left:0;">江湖之中，名侠沈浪，痛快一战快活王，已三十年。</span>
+				<span class="g" style="padding-left:0;">小李飞刀，例无虚发，李寻欢归隐人世，已二十年。</span>
+				<span class="g" style="padding-left:0;">近十年来，太白、神威、唐门、丐帮、天香、五毒、真武、神刀等派崭露头角，群雄并立于八荒之中。</span>
+			</p>
+			<div class="pa utd"><div class="pa role" id="utd"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/tangmen.png"></div></div>
+			<div class="bnts" id="utdbut">
+				<span class="pa tab tangm cur"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(0,9);">唐门</a></span>
+				<span class="pa tab tianx"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(1,9);">天香</a></span>
+				<span class="pa tab gaib"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(2,9);">丐帮</a></span>
+				<span class="pa tab shenw"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(3,9);">神威</a></span>
+				<span class="pa tab zhenw"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(4,9);">真武</a></span>
+				<span class="pa tab taib"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(5,9);">太白</a></span>
+				<span class="pa tab wud"><em class="lx"></em><a class="tit" href="javascript:utd.OnlyClkBut(6,9);">五毒</a></span>
+				<span class="pa plvd"><i class="triangle"></i><a class="played" id="mpvideo" href="javascript:glb.layerEvent.showLayer(0);"></a></span>
+			</div>
+		</div>
+	</div>
+	<div class="parts group">
+		<div class="container">
+			<h2 class="pa">天下盟会</h2>
+			<p class="pa gtit">智者，逸者，霸者与侠者的对话</p>
+			<ul class="pa bosses">
+				<li class="boss quwy"><a class="bn" href="http://wuxia.qq.com/act/a20141219sdmh/qwy/" target="_blank">寒江城 曲无忆</a></li>
+				<li class="boss tangqf"><a class="bn" href="http://wuxia.qq.com/act/a20141219sdmh/tqf/" target="_blank">水龙吟 唐青枫</a></li>
+				<li class="boss yezq"><a class="bn" href="http://wuxia.qq.com/act/a20141219sdmh/yzq/" target="_blank">帝王州 叶知秋</a></li>
+				<li class="boss liyt"><a class="bn" href="http://wuxia.qq.com/act/a20141219sdmh/lyt/" target="_blank">万里殺 离玉堂</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="parts profession">
+		<div class="container">
+			<h2 class="pa">江湖百业</h2>
+			<p class="pa gtit">只有我才能扮演我的身份</p>
+			<div class="job" id="job"><span class="pa pic"><img src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/shashou.png"></span><div class="pa jinfo"><h3 class="fontkt">杀手</h3><p class="fontkt">刀头舐血，不染无名之辈之血；鹰飞兔走，不走榜上有名之人。诡行暗夜，龙鳞匿影；一击远扬，溅血迷踪。<a class="more" href="http://wuxia.qq.com/gamedata/identity/shashou.shtml" target="_blank">了解更多</a></p></div></div>
+			<div class="bnts" id="idebut">
+				<span class="pa tab shashou cur"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(0,10);">杀手</a></span>
+				<span class="pa tab wenshi"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(1,10);">文士</a></span>
+				<span class="pa tab bukuai"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(2,10);">捕快</a></span>
+				<span class="pa tab yueling"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(3,10);">乐伶</a></span>
+				<span class="pa tab youxia"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(4,10);">游侠</a></span>
+				<span class="pa tab biaoshi"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(5,10);">镖师</a></span>
+				<span class="pa tab liehu"><em class="lx"></em><a class="tit" href="javascript:ide.OnlyClkBut(6,10);">猎户</a></span>
+				<span class="pa tab shangjia"><em class="lx"></em><a class="tit" href="javascript:alert(&#39;暂未开放！&#39;);">商贾</a></span>
+				<span class="pa tab shijing"><em class="lx"></em><a class="tit" href="javascript:alert(&#39;暂未开放！&#39;);">市井</a></span>
+				<span class="pa tab xuanyan"><em class="lx"></em><a class="tit" href="javascript:alert(&#39;暂未开放！&#39;);">悬眼</a></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="nav" id="nav"><a class="navs cj" href="javascript:glb.pageEvent(1);">场景</a><a class="navs rw" href="javascript:glb.pageEvent(2);">人物</a><a class="navs jq" href="javascript:glb.pageEvent(3);">剧情</a><a class="navs zd" href="javascript:glb.pageEvent(4);">战斗</a><a class="navs mp" href="javascript:glb.pageEvent(5);">门派</a><a class="navs mh" href="javascript:glb.pageEvent(6);">盟会</a><a class="navs sf" href="javascript:glb.pageEvent(7);">身份</a></div>
+</div>
+<div class="mask" id="mask"></div>
+<div class="layerdt" id="layer">
+	<div class="lydt" id="vbox"></div>
+	<a href="javascript:glb.layerEvent.hidnLayer();" class="exitlayer">×</a>
+</div>
+<script src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/foot.js.下载"></script><div id="footer_ied"><div class="wrap_ied"><p><a href="http://ieg.tencent.com/" target="_blank">腾讯互动娱乐</a> | <a href="http://game.qq.com/contract.shtml" target="_blank">服务条款</a> | <a href="http://adver.qq.com/" target="_blank">广告服务</a> | <a href="http://game.qq.com/hr/" target="_blank">腾讯游戏招聘</a> | <a href="http://service.qq.com/" target="_blank">腾讯游戏客服</a> | <a href="http://game.qq.com/gnav" target="_blank">游戏地图</a> | <a href="http://tgact.qq.com/" target="_blank">游戏活动</a> | <a href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbottom" target="_blank">成长守护平台</a> | <a href="http://game.qq.com/brand/business.htm" target="_blank">商务合作</a> | <a href="http://www.qq.com/map/" target="_blank">网站导航</a></p><p class="e">COPYRIGHT &#169; 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.</p><p><a href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" target="_blank">腾讯公司 版权所有</a></p></div></div><script src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/dr.js.下载" type="text/javascript"></script>
+<script>
+var glb={
+	d:document,nau:navigator.userAgent,
+	getId:function(id){return this.d.getElementById(id)},
+	newElem:function(o){return this.d.createElement(o);},
+	getElems:function(el,o){return el.getElementsByTagName(o);},
+	getClass:function(cn,el,nd){var testClass=new RegExp("\\b"+cn+"\\b"),ar=[],el=el||this.d,nd=nd||'*',tag=this.getElems(el,nd),len=tag.length;for(var i=0;i<len;i++){var cel=tag[i];if(testClass.test(cel.className)){ar.push(cel);};};return ar;},
+	st:function(){return (this.d.body.scrollTop)?this.d.body.scrollTop:this.d.documentElement.scrollTop;},
+	ww:function(){return (this.d.documentElement&&this.d.documentElement.clientWidth)?this.d.documentElement.clientWidth:this.d.body.offsetWidth;},
+	wh:function(){return (this.d.documentElement&&this.d.documentElement.clientHeight)?this.d.documentElement.clientHeight:this.d.body.offsetHeight;},
+	offset:function(o){var y=o.offsetTop;if(o.style.position=='absolute')return y;while(o=o.offsetParent){y+=o.offsetTop;}return y;},
+	addEvent:function(a,b,c,d){if(a.addEventListener){a.addEventListener(b,c,d)}else if(a.attachEvent){a.attachEvent('on'+b,c)}},
+	delEvent:function (a,b,c,d){if(a.removeEventListener){a.removeEventListener(b,c,d)}else if(a.detachEvent){a.detachEvent('on'+b,c)}},
+	delayLoad:function(url,callback){
+		var script=this.newElem('script');
+		script.type="text/javascript";
+		script.src=url;
+		this.d.body.appendChild(script);
+		if(script.readyState){
+			script.onreadystatechange=function(){
+				if(script.readyState=="loaded"||script.readyState=="complete"){
+					script.onreadystatechange=null;
+					if(callback){callback();};
+				};
+			};
+		}else{
+			script.onload=function(){if(callback){callback();};};
+		};
+	},
+	easeOut:function(t,b,c,d){return c*((t=t/d-1)*t*t*t*t+1)+b;}
+};
+glb.brow={
+	isLowBrow:!-[1,],
+	isFF:/firefox/i.test(glb.nau),
+	isQQ:glb.nau.indexOf('QQBrowser')!=-1,
+	isIE9:/MSIE 9/i.test(glb.nau),
+	isIE6:/MSIE 6/i.test(glb.nau),
+	isMobile:/Android|iPhone|iTouch|iPad|BlackBerry|IEMobile|Mobile/i.test(glb.nau)
+};
+glb.data={
+	"map":["bashu","dongyue","hangzhou","jiangnan","jinghu","jiuhua","kaifeng","qinchuan","xiangzhou","xuhai","yanyun","yundian"],
+	"utd":["tangmen","tianxiang","gaibang","shenwei","zhenwu","taibai","wudu"],
+	"ide":[
+		{"name":"杀手","link":"shashou","pic":"shashou","info":"刀头舐血，不染无名之辈之血；鹰飞兔走，不走榜上有名之人。诡行暗夜，龙鳞匿影；一击远扬，溅血迷踪。","open":1},
+		{"name":"文士","link":"wenshi","pic":"wenshi","info":"书中自有千钟粟，书中自有黄金屋，书中自有颜如玉，书中自有江湖路。以书中风云笑傲世间风云；以书中筹谋淡泊世间筹谋。","open":1},
+		{"name":"捕快","link":"bukuai","pic":"bukuai","info":"冷血无情，舍快意恩仇之剑，持庙堂法理之剑；鞠躬尽瘁，扫天下奸邪之氛，定盛世太平之氛！","open":1},
+		{"name":"乐伶","link":"yueling","pic":"yueling","info":"世人皆重颜色，我以色笑为刀剑；世人皆爱歌舞，我以歌舞为甲胄。琵琶瑶琴和锦瑟，世间知音又几何？","open":1},
+		{"name":"游侠","link":"youxia","pic":"youxia","info":"镜锁璇玑，蝶从天水，宝出怜花，令遵钱王。前尘旧事，不过一铲挖根掘底；独享快活，看我搜罗天下珍奇！","open":1},
+		{"name":"镖师","link":"biaoshi","pic":"biaoshi","info":"论武功，为保红货不惜死；论人脉，镖行天下有捷径。奇货可居，南北自通衢；为得镖银，西天亦可去！","open":1},
+		{"name":"猎户","link":"liehu","pic":"liehu","info":"驯服犬马，自可以驯服猛虎；缚鹰之手，亦无惧力缚苍龙。深山密林，是我之常胜沙场；百鸟万兽，乃我之帐下先锋。","open":1},
+		{"name":"商贾","link":"shangjia","pic":"shangjia","info":"","open":0},
+		{"name":"市井","link":"shijing","pic":"shijing","info":"","open":0},
+		{"name":"悬眼","link":"xuanyan","pic":"xuanyan","info":"","open":0}
+	]
+};
+glb.changeNavColor=function(){
+	var cn=null;
+	if(!(glb.brow.isLowBrow||glb.brow.isIE9)){
+		if(glb.curstage==2||glb.curstage==5){
+			cn=glb.nav.className;
+			if(!(/blk/i.test(cn))){glb.nav.className+=' blk';}
+		}else{
+			glb.nav.className=glb.nav.className.replace(/ blk/i,'');
+		};
+	}else{
+		if((glb.st()>=2200&&glb.st()<=3300)||(glb.st()>=5500&&glb.st()<=6600)){
+			cn=glb.nav.className;
+			if(!(/blk/i.test(cn))){glb.nav.className+=' blk';}
+		}else{
+			glb.nav.className=glb.nav.className.replace(/ blk/i,'');
+		};
+	};
+};
+glb.navEvent=function(){
+	if(glb.now){glb.now.className=glb.now.className.replace(/ cur/i,'');};
+	if(glb.curstage!=0){
+		glb.now=glb.clk[glb.curstage-1];
+		glb.now.className+=" cur";
+		var t=setTimeout(function(){if(!(/flt/i.test(glb.nav.className))){glb.nav.className+=" flt";};},10);
+if(glb.getId('ost_box')){glb.getId('ost_box').style.display='none';}
+	}else{
+		glb.now=null;
+		glb.nav.className=glb.nav.className.replace(/ flt/i,'');
+		if(glb.getId('ost_box')){glb.getId('ost_box').style.display='block';}
+	};
+	glb.changeNavColor();
+};
+glb.pageEvent=function(_c){
+	glb.curstage=(_c)?_c:glb.curstage;
+	if(!(glb.brow.isLowBrow||glb.brow.isIE9)){
+		glb.wrap.style.cssText='-webkit-transform:translate3d(0,-'+(glb.curstage*100)+'%,0);transform:translate3d(0,-'+(glb.curstage*100)+'%,0);';
+	}else{
+		window.scrollTo(0,glb.curstage*1101);
+	};
+	glb.navEvent();
+};
+glb.msEvent=function(e){
+	glb.delEvent(window,glb.me,glb.msEvent,false);
+	var e=e||window.event,mvale=e.detail||e.wheelDelta,pre_t=null,end_t=null,beg_t=null,flag=null;
+	if((!glb.brow.isFF&&mvale<0)||(glb.brow.isFF&&mvale>0)){
+		if(glb.curstage<glb.allstage){
+			glb.curstage++;
+		};
+	}else if((!glb.brow.isFF&&mvale>0)||(glb.brow.isFF&&mvale<0)){
+		if(glb.curstage>0){
+			glb.curstage--;
+		};
+	}else{
+		glb.addEvent(window,glb.me,glb.msEvent,false);
+	};
+	flag=setTimeout(function(){glb.addEvent(window,glb.me,glb.msEvent,false);},1000);
+	glb.pageEvent();
+};
+glb.ieEvent=function(){
+	if(glb.st()>=1100){
+		glb.nav.className+=' flt';
+	}else{
+		glb.nav.className='nav';
+	};
+	glb.changeNavColor();
+};
+glb.setArea=function(){
+	var h=glb.wh(),line=glb.wh()-50;
+	return line;
+};
+glb.mousePointer=function(e){
+	var e=e||window.event;
+	if(e.clientY>=glb.setArea()){
+		glb.getId('footer_ied').style.cssText='-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);';
+	}else{
+		glb.getId('footer_ied').style.cssText='';
+	};
+};
+glb.autoScroll=function(){
+	var n=window.location.search.split('=')[1];
+	if(!isNaN(n)&&n<=7){
+		glb.pageEvent(n);
+	}else{return;};
+};
+glb.init=function(){
+	glb.me=(glb.brow.isFF)?'DOMMouseScroll':'mousewheel';
+	glb.wrap=glb.getId('wrap');
+	glb.nav=glb.getId('nav');
+	glb.clk=glb.getClass('navs',glb.nav);
+	glb.curstage=0;
+	glb.allstage=7;
+	if(!(glb.brow.isLowBrow||glb.brow.isIE9)){
+		glb.addEvent(window,glb.me,glb.msEvent,false);
+		glb.addEvent(glb.d,'mousemove',glb.mousePointer,false);
+	}else{
+		glb.addEvent(window,'scroll',glb.ieEvent,false);
+	};
+	var g=setInterval(function(){
+		if(glb.getId('ost_box')){
+			glb.autoScroll();
+			clearInterval(g);
+		};
+	},1000);
+}();
+var ShowPicEvent=function(o){
+	this.insTag=glb.getId(o.id)||null;
+	this.data=o.data||null;
+	this.index=o.index||0;
+	this.type=o.type||'png';
+	this.len=this.data.length;
+	this.addr=o.addr||'//game.gtimg.cn/images/wuxia/act/a20150623characteristic/';
+	this.outDom=null;
+	this.dom=o.dom||'img';
+	this.initDom();
+},appFds=function(){
+	var self=this,fds=glb.newElem('div'),s='<span class="ewmarea"><img alt="二维码" src="//game.gtimg.cn/images/wuxia/picture/wuxia-ewm.jpg"></span><span class="but ots ent"><a href="//wuxia.qq.com/main.shtml" class="ota" onclick="pgvSendClick({hottag:&apos;a20150623characteristic.fds.enter&apos;});" target="_blank">进入官网</a><sup class="spr pretag"></sup></span><span class="but ots dlg"><a href="//wuxia.qq.com/download.shtml" class="ota" onclick="pgvSendClick({hottag:&apos;a20150623characteristic.fds.dlgame&apos;});" target="_blank">游戏下载</a><sup class="spr pretag"></sup></span>';
+	fds.className='fds';fds.id='fds';
+	fds.innerHTML=s;
+	glb.d.body.appendChild(fds);
+}();
+ShowPicEvent.prototype.outHTML=function(){
+	var self=this,data=self.data[self.index];
+	self.outDom=(self.dom=='img')?'<img src="'+(self.addr+data+'.'+self.type)+'">':(self.dom=='html')?'<span class="pa pic"><img src="'+(self.addr+data.pic+'.'+self.type)+'"></span><div class="pa jinfo"><h3 class="fontkt">'+data.name+'</h3><p class="fontkt">'+data.info+'<a class="more" href="//wuxia.qq.com/gamedata/identity/'+data.link+'.shtml" target="_blank">了解更多</a></p></div>':null;
+	self.insTag.innerHTML=self.outDom;
+};
+ShowPicEvent.prototype.demandPic=function(n){
+	var self=this;self.index=n;self.outHTML();
+};
+ShowPicEvent.prototype.turnPage=function(x){
+	var self=this;
+	self.index=(x==1&&self.index<self.len-1)?++self.index:(x==-1&&self.index>0)?--self.index:(self.index<=0)?self.len-1:(self.index>=self.len-1)?0:self.index;
+	self.outHTML();
+};
+ShowPicEvent.prototype.initDom=function(){
+	var self=this;self.outHTML();
+};
+var CLKButEvent=function(o){
+	this.tag=glb.getId(o.id)||null;
+	this.kids=glb.getClass(o.cn,this.tag,o.kid);
+	this.len=this.kids.length;
+	this.index=o.index||0;
+	this.cur=null;
+	this.setCurBut();
+};
+CLKButEvent.prototype.setCurBut=function(){
+	var self=this;
+	if(self.cur){self.cur.className=self.cur.className.replace(/ cur/i,'');};
+	self.cur=self.kids[self.index];
+	self.cur.className+=' cur';
+};
+CLKButEvent.prototype.OnlyClkBut=function(n,g){
+	var self=this;
+	if(self.index!=n){
+		self.index=n;
+		self.setCurBut();
+		if(g==10){idpart.demandPic(self.index);}else if(g==9){
+			utpart.demandPic(self.index);
+			glb.getId('mpvideo').href='javascript:glb.layerEvent.showLayer('+self.index+');';
+		}else if(g==8){return;};
+	}else{return;};
+};
+var MoreEquipmentVideo=function(o){
+	this.init=1;
+	this.setCotType=function(){return (glb.brow.isMobile)?'touchstart':'click';};
+	this.equipmentType=function(){return (!(glb.newElem('video').canPlayType))&&!glb.brow.isMobile;};
+	this.ustype=this.setCotType();
+	this.curEquipment=this.equipmentType();
+	this.isWhich=function(){return (glb.brow.isMobile)?1:0;};
+	this.tag=null;
+	this.str={left:'<a class="clk_to_play" id="clk_to_play" href="javascript:;" title="点击播放">',right:'</a>'};
+	this.index=0;
+	this.auto=false;
+	this.device=(glb.brow.isMobile)?'11001':'1';
+	this.fmt=(glb.brow.isMobile)?'auto':'fhd';
+	this.rnd=new Date().valueOf();
+	if(o){
+		this.tag=(o.tag)?glb.getId(o.tag):this.tag;
+		this.index=(o.hasOwnProperty('index'))?o.index:self.index;
+		this.vidQuery=o.vidQuery||null;
+		this.vid=(o.vid)?o.vid:(this.vidQuery)?this.vidQuery[this.index]:null;
+		this.cover=o.cover||null;
+		this.auto=o.auto||this.auto;
+		this.initPageVideo();
+	};
+};
+MoreEquipmentVideo.prototype.reAppVideo=function(o){
+	var self=this;
+	self.init=0;
+	self.tag=(o.tag)?glb.getId(o.tag):self.tag;
+	self.index=(o.hasOwnProperty('index'))?o.index:self.index;
+	self.auto=o.auto||self.auto;
+	self.vid=o.vid||self.vidQuery[self.index];
+	if(!self.auto){self.cover=o.cover||self.cover[self.index];};
+	self.initPageVideo();
+};
+MoreEquipmentVideo.prototype.outVideo=function(obj){
+	var self=obj,data=window['QZOutputJson'],
+		_ipurl=data.vl.vi[0].ul.ui[0].url,
+		_name=data.vl.vi[0].fn,
+		_vkey=data.vl.vi[0].fvkey,
+		_br=data.vl.vi[0].br,
+		_platform=2,
+		_fmt='auto',
+		_level=0,
+		_sdtfrom='v3010',
+		_ar=[],_url=null,_s=null,_isauto=null;
+	if('1'==self.device){
+		_ar=data.vl.vi[0].fn.split('.');
+		if(data.vl.vi[0].cl.ci&&data.vl.vi[0].cl.ci[0].idx){_ar.splice(_ar.length-1,0,data.vl.vi[0].cl.ci[0].idx);};
+		_name=_ar.join('.');
+	};
+	_url=_ipurl+_name+'?vkey='+_vkey+'&br='+_br+'&platform='+_platform+'&fmt='+_fmt+'&level='+_level+'&sdtfrom='+_sdtfrom;
+	_isauto=(self.auto)?' autoplay="autoplay"':' style="width:1px;height:1px;"';
+	self.str.v='<video id="curVideoPlay" src="'+_url+'"'+_isauto+' controls="controls"></video>';
+	if(self.tag){
+		if(self.auto){
+			self.tag.innerHTML=self.str.v;
+		}else{
+			self.tag.innerHTML=self.str.v+self.str.left+self.str.img+self.str.right;
+			self.clkPlayVideo();
+		};
+	};
+	self.video=glb.getId('curVideoPlay');
+};
+MoreEquipmentVideo.prototype.outFlashPlay=function(){
+	var self=this;
+	self.tag.innerHTML='<object width="100%" height="100%" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab#version=10,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="video_w0015pec1lz"><param value="'+self.url+'" name="movie"><param value="opaque" name="wmode"><param value="always" name="allowscriptaccess"><param value="high" name="quality"><param value="true" name="allowfullscreen"><param value="all" name="allownetworking"><embed width="100%" height="100%" align="middle" wmode="opaque" src="'+self.url+'" quality="high" name="_playerswf" id="_playerswf" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>';
+};
+MoreEquipmentVideo.prototype.clkPlayVideo=function(){
+	var self=this,playVideo=function(e){
+		var e=e||window.event,target=e.target||e.srcElement;
+		if('IMG'==target.nodeName&&'clk_to_play'==target.parentNode.className){
+			if((!(glb.newElem('video').canPlayType))&&!glb.brow.isMobile){
+				self.outFlashPlay();
+			}else{
+				self.video.style.cssText='width:100%;height:100%;';
+				self.video.play();
+			};
+			self.tag.removeChild(target.parentNode);
+			glb.delEvent(self.tag,self.ustype,playVideo,false);
+		};
+	};
+	glb.addEvent(self.tag,self.ustype,playVideo,false);
+};
+MoreEquipmentVideo.prototype.initPageVideo=function(){
+	var self=this;
+	self.str.img=(self.cover)?'<img src="'+(self.cover[self.index])+'" />':'';
+	if(self.curEquipment){
+		self.url='http://imgcache.qq.com/tencentvideo_v1/player/TPout.swf?autoplay=1&amp;outhost=http://wuxia.qq.com/&amp;skin=http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf&amp;vid='+self.vid;
+		if(self.auto){self.outFlashPlay();return;};
+		if(self.tag){
+			self.tag.innerHTML=self.str.left+self.str.img+self.str.right;
+			self.clkPlayVideo();
+		};
+	}else{
+		if(self.vid){
+			self.url='//vv.video.qq.com/getinfo?vids='+self.vid+'&platform='+self.device+'&charge=0&otype=json&defaultfmt='+self.fmt+'&sb=0&nocache=0&_rnd='+self.rnd;
+			glb.delayLoad(self.url,function(){self.outVideo(self);});
+		};
+	};
+};
+glb.layerEvent={
+	mk:glb.getId('mask'),
+	ly:glb.getId('layer'),
+	bx:glb.getId('vbox'),
+	showLayer:function(n){
+		video.reAppVideo({index:n,auto:true,tag:'vbox'});
+		this.mk.style.cssText='position:fixed;display:block;height:'+glb.wh()+'px;';
+		this.ly.style.display='block';
+		this.ly.style.top=(glb.st()+glb.wh()/2)+'px';
+	},
+	hidnLayer:function(){
+		this.mk.style.display=this.ly.style.display='none';
+		this.bx.innerHTML='';
+	}
+};
+var mapart=new ShowPicEvent({id:"map",data:glb.data.map}),
+	utpart=new ShowPicEvent({id:"utd",data:glb.data.utd}),
+	idpart=new ShowPicEvent({id:"job",data:glb.data.ide,dom:'html'}),
+	fbs=new CLKButEvent({id:"FBlist",cn:"FB",kid:"li"}),
+	utd=new CLKButEvent({id:"utdbut",cn:"tab",kid:"span"}),
+	ide=new CLKButEvent({id:"idebut",cn:"tab",kid:"span"}),
+	video=new MoreEquipmentVideo({vidQuery:['k001742l1re','b0017uyhqa8','y0017m1msm4','a0017tkrr8b','m0017f2cujo','w0017lr5x0e','z00162jt9lr','n0014e9rn7d','u0016ymrn5g','e001551vgrp','f0015t0zvd6','w0016ie18q7']});
+
+glb.delayLoad("//game.gtimg.cn/images/js/title.js",function(){
+	glb.pdflag=setInterval(function(){
+		if(glb.getId('ost_box')){
+			glb.d.body.style.paddingTop=0;
+			clearInterval(glb.pdflag);
+		};
+	},500);});
+glb.addEvent(window,'load',function(){glb.delayLoad("//pingjs.qq.com/ping_tcss_ied.js",function(){if(typeof(pgvMain)=='function'){pgvMain();};});});
+</script><div class="fds" id="fds"><span class="ewmarea"><img alt="二维码" src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/wuxia-ewm.jpg"></span><span class="but ots ent"><a href="http://wuxia.qq.com/main.shtml" class="ota" onclick="pgvSendClick({hottag:&#39;a20150623characteristic.fds.enter&#39;});" target="_blank">进入官网</a><sup class="spr pretag"></sup></span><span class="but ots dlg"><a href="http://wuxia.qq.com/download.shtml" class="ota" onclick="pgvSendClick({hottag:&#39;a20150623characteristic.fds.dlgame&#39;});" target="_blank">游戏下载</a><sup class="spr pretag"></sup></span></div><script type="text/javascript" src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/title.js.下载"></script>
+
+<script src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/eas.js.下载" type="text/javascript"></script><script src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/dr.php" type="text/javascript"></script><div class="ost_box ost_bg" id="ost_box" style="position: absolute;"><ul class="ost_inner ost_lsn"><li class="ost_logo ost_h40 ost_fl ost_bg"><a href="http://game.qq.com/?ADTAG=IED.InnerCop.gameWeb.topNav%20target=" _blank"="" class="ost_blnk ost_hdn" title="腾讯游戏logo">腾讯游戏logo</a></li><li id="ost_g" class="ost_ad ost_h40 ost_fl"><img class="ost_nb" id="ost_go" src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/383050157917248367149630848823040.1496308488.a85cd82877e2e881a371a7c25b548090.jpg" alt=""></li><li class="ost_total ost_ml10 ost_fr"><h3 class="ost_czsh ost_h40"><a target="_blank" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbanner">成长守护平台</a></h3><h3 class="ost_title ost_h40" id="ost_t">腾讯游戏排行榜<i class="ost_icon_arrow ost_bg"></i><sup class="ost_icon_reddot" id="ost_rank_v"></sup></h3><div class="ost_pop" id="ost_p"></div></li><li class="ost_fr ost_log ost_bg" id="ost_log"></li></ul><div id="ost_d" class="ost_big"></div></div><script type="text/javascript" src="./天涯那么大 何处不天涯-天涯明月刀-官方网站-腾讯游戏_files/ping_tcss_ied.js.下载"></script></body></html>

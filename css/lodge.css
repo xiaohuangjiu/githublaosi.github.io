@@ -1,0 +1,1980 @@
+/*.kz-ti-into {*/
+    /*display: block;*/
+    /*float: right;*/
+    /*width: 86px;*/
+    /*height: 37px;*/
+    /*background: url("../lodge/img_1.png") no-repeat;*/
+/*}*/
+
+/*×ó±ßÀ¸*/
+.kz-nav {
+    width: 200px;
+    padding-right: 15px;
+    float: left;
+    overflow: hidden;
+    background: lavender;
+}
+
+.kz-nav-download {
+    display: block;
+    height: 104px;
+    background: skyblue;
+}
+
+.kz-nav-list1 {
+    overflow: hidden;
+    position: relative;
+}
+
+.kz-nav-list1 ul li {
+    height: 70px;
+    float: left;
+    margin: 1px 1px 0 0;
+    background: green;
+}
+
+.kz-nav-list1 ul li a {
+    display: block;
+    width: 99px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: green;
+}
+
+.kz-nav-list2 {
+    height: 350px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.kz-nav-list2 li {
+    float: left;
+}
+
+.kz-nav-list2 li a {
+    position: relative;
+    display: block;
+    width: 99px;
+    height: 116px;
+    margin: 0 1px 1px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.kz-nav-list2 li a em {
+    position: absolute;
+    font-size: 15px;
+    top: 75px;
+    left: 20px;
+}
+
+.kz-nav-list2 .lis1 {
+    background: url("../images/lodge/img_8.jpg") no-repeat;
+}
+
+.kz-nav-list2 .lis2 {
+    background: url("../images/lodge/img_8.jpg") -100px 0px no-repeat;
+}
+
+.kz-nav-list2 .lis3 {
+    background: url("../images/lodge/img_8.jpg") 0px -117px no-repeat;
+}
+
+.kz-nav-list2 .lis4 {
+    background: url("../images/lodge/img_8.jpg") -100px -117px no-repeat;
+}
+
+.kz-nav-list2 .lis5 {
+    background: url("../images/lodge/img_8.jpg") 0px -234px no-repeat;
+}
+
+.kz-nav-list2 .lis6 {
+    background: url("../images/lodge/img_8.jpg") -100px -234px no-repeat;
+}
+
+.kz-nav-gg {
+    margin-top: 10px;
+}
+
+.kz-nav-gg a {
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin-bottom: 7px;
+    background: yellowgreen;
+}
+
+.kz-nav-gg .gg1 {
+    background: url("../images/lodge/gg1.jpg");
+}
+
+.kz-nav-gg .gg2 {
+    background: url("../images/lodge/gg2.jpg");
+}
+
+/*ÖÐ¼äÄÚÈÝ*/
+.kz-center {
+    width: 1000px;
+    float: right;
+    overflow: hidden;
+
+}
+
+.kz-center-person {
+    width: 587px;
+    height: 361px;
+    position: relative;
+    float: left;
+}
+
+/*×îÐÂ×ÊÑ¶*/
+.kz-center-newbox {
+    width: 399px;
+    height: 361px;
+    float: left;
+    margin-left: 14px;
+    background-color: #0096d0;
+
+}
+
+/*»°±¾¹¥ÂÔºÍÂþ»­Ð¡Ëµ*/
+.kz-center-boxbj {
+    width: 586px;
+    height: 480px;
+    padding: 15px 15px 15px 0;
+    float: left;
+    overflow: hidden;
+
+}
+
+/*»°±¾¹¥ÂÔ*/
+.kz-center-boxbj .strategy {
+    width: 586px;
+    height: 180px;
+    background-color: #fff;
+}
+
+/*±êÌâ*/
+
+.strategyTitle {
+    position: relative;
+    line-height: 76px;
+    color: #fff;
+    font-size: 12px;
+    color: #ccc;
+    font-family: "Microsoft YaHei";
+}
+
+.boxbjTitle {
+    line-height: 68px;
+    margin-left: 20px;
+    margin-right: 9px;
+    float: left;
+    color: #45C7AC;
+    position: relative;
+}
+
+.strategyTitle a {
+    float: right;
+    color: #45C7AC;
+    font-size: 14px;
+}
+
+.strategy p {
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+
+.strategy p a {
+    margin-right: 28px;
+    color: #666767;
+}
+
+/*Âþ»­Ð¡Ëµ*/
+.kz-center-boxbj .faction {
+    width: 586px;
+    height: 255px;
+
+}
+
+/*Âþ»­Ð¡Ëµ±êÌâ*/
+
+.factionTitle {
+    position: relative;
+    line-height: 80px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+.txetTitle {
+    line-height: 68px;
+    margin-left: 20px;
+    margin-right: 9px;
+    float: left;
+    color: #45C7AC;
+    position: relative;
+}
+
+.factionTitle a {
+    float: right;
+    color: #45C7AC;
+    font-size: 14px;
+}
+
+/*Ð¡ËµÎÄ±¾ÄÚÈÝ*/
+
+.textNovel {
+
+}
+
+.textNovel ul {
+    float: left;
+    overflow: hidden;
+    margin: 10px 0 10px 20px;
+    height: 205px;
+    width: 352px;
+}
+
+.textNovel ul li {
+    margin: 12px 0;
+    color: #A1BBDE;
+}
+
+.textNovel ul li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+.textNovel ul li i {
+    float: right;
+}
+
+/*Ð¡ËµÍ¼Æ¬*/
+.cartoonPic {
+    width: 175px;
+    height: 188px;
+    float: right;
+    overflow: hidden;
+}
+
+.cartoonPic a {
+    margin: 20px 0 10px 0;
+    display: block;
+}
+
+/*ÌØÉ«À¸Ä¿*/
+.kz-center-feature {
+    overflow: hidden;
+    width: 399px;
+    height: 450px;
+    margin: 15px 0;
+    float: left;
+    background: #fff;
+}
+
+.kz-center-feature .column {
+    position: relative;
+    line-height: 80px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+.featureTitle {
+    line-height: 68px;
+    margin-left: 20px;
+    margin-right: 9px;
+    float: left;
+    color: #45C7AC;
+    position: relative;
+}
+
+.column a {
+    float: right;
+    color: #45C7AC;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.kz-center-feature ul {
+    margin: 0 10px 0 20px;
+}
+
+.kz-center-feature ul li {
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.kz-center-feature li a {
+    color: #666767;
+}
+
+/*ÃÅÅÉÖ¸Òý*/
+.kz-center-guide {
+    overflow: hidden;
+    width: 1000px;
+    height: 559px;
+    margin-bottom: 15px;
+    background: #fff;
+
+}
+
+.guideTxt {
+    position: relative;
+    line-height: 80px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+}
+
+.guideTitle {
+    line-height: 68px;
+    margin-left: 20px;
+    margin-right: 9px;
+    float: left;
+    color: #45C7AC;
+    position: relative;
+}
+
+.gui_hd {
+    width: 48px;
+    height: 475px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 30px;
+    /*background-color: floralwhite;*/
+}
+
+.gui_hd li {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 9px;
+}
+
+.gui_hd li a {
+    width: 48px;
+    height: 48px;
+
+    display: block;
+}
+
+.gui_hd .hd1 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: -62px 0;
+}
+
+.gui_hd .hd2 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0px -60px;
+}
+
+.gui_hd .hd3 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0px -120px;
+}
+
+.gui_hd .hd4 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0px -180px;
+}
+
+.gui_hd .hd5 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0px -240px;
+}
+
+.gui_hd .hd6 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0 -300px;
+}
+
+.gui_hd .hd7 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0 -360px;
+}
+
+.gui_hd .hd8 a {
+    background: url("../images/lodge/zhiye.jpg") no-repeat;
+    background-position: 0 -420px;
+}
+
+.occupationTob {
+
+    float: left;
+    margin-left: 60px;
+}
+
+/*神刀*/
+.deitySword {
+    /*display: none;*/
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/shendaovk.png") 312px -21px no-repeat;
+}
+
+.kz-center-guide .deitySword .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.deitySword .panel .introduce {
+    width: 467px;
+}
+
+.deitySword .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.deitySword .panel p {
+    margin-top: 20px;
+}
+
+.deitySword .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.deitySword .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.deitySword .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.deitySword .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.deitySword .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.deitySword .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.deitySword .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.deitySword .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.deitySword .grade .n4 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.deitySword .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.deitySword .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.deitySword .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.deitySword .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.deitySword .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.deitySword .delTitle h5 {
+    float: left;
+}
+
+.deitySword .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.deitySword .details li {
+    line-height: 28px;
+}
+
+.deitySword .details li em {
+    float: right;
+}
+
+.deitySword .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*真武*/
+
+.realFierce {
+    /*display: none;*/
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/zhenwu01.jpg") 445px 0px no-repeat;
+}
+
+.kz-center-guide .realFierce .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.realFierce .panel .introduce {
+    width: 467px;
+}
+
+.realFierce .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.realFierce .panel p {
+    margin-top: 20px;
+}
+
+.realFierce .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.realFierce .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.realFierce .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.realFierce .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.realFierce .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.realFierce .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.realFierce .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.realFierce .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.realFierce .grade .n4 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.realFierce .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.realFierce .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.realFierce .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.realFierce .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.realFierce .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.realFierce .delTitle h5 {
+    float: left;
+}
+
+.realFierce .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.realFierce .details li {
+    line-height: 28px;
+}
+
+.realFierce .details li em {
+    float: right;
+}
+
+.realFierce .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*丐帮*/
+
+.beggar {
+    display: none;
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/gaibang.jpg") 580px 0px no-repeat;
+}
+
+.kz-center-guide .beggar .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.beggar .panel .introduce {
+    width: 467px;
+}
+
+.beggar .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.beggar .panel p {
+    margin-top: 20px;
+}
+
+.beggar .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.beggar .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.beggar .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.beggar .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.beggar .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.beggar .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.beggar .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.beggar .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.beggar .grade .n4 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.beggar .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.beggar .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.beggar .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.beggar .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.beggar .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.beggar .delTitle h5 {
+    float: left;
+}
+
+.beggar .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.beggar .details li {
+    line-height: 28px;
+}
+
+.beggar .details li em {
+    float: right;
+}
+
+.beggar .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*神威*/
+
+.godPower {
+    display: none;
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/shenwei%20(2).jpg") 480px 0px no-repeat;
+}
+
+.kz-center-guide .godPower .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.godPower .panel .introduce {
+    width: 467px;
+}
+
+.godPower .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.godPower .panel p {
+    margin-top: 20px;
+}
+
+.godPower .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.godPower .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.godPower .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.godPower .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.godPower .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.godPower .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.godPower .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.godPower .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.godPower .grade .n4 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.godPower .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.godPower .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.godPower .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.godPower .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.godPower .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.godPower .delTitle h5 {
+    float: left;
+}
+
+.godPower .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.godPower .details li {
+    line-height: 28px;
+}
+
+.godPower .details li em {
+    float: right;
+}
+
+.godPower .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*太白*/
+
+.pure {
+    display: none;
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/taibai.jpg") 480px 0px no-repeat;
+}
+
+.kz-center-guide .pure .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.pure .panel .introduce {
+    width: 467px;
+}
+
+.pure .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.pure .panel p {
+    margin-top: 20px;
+}
+
+.pure .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.pure .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.pure .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.pure .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.pure .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.pure .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.pure .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.pure .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.pure .grade .n4 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.pure .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.pure .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.pure .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.pure .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.pure .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pure .delTitle h5 {
+    float: left;
+}
+
+.pure .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.pure .details li {
+    line-height: 28px;
+}
+
+.pure .details li em {
+    float: right;
+}
+
+.pure .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*唐门*/
+
+.Tang {
+    display: none;
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/tanmen.jpg") 525px 0px no-repeat;
+}
+
+.kz-center-guide .Tang .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.Tang .panel .introduce {
+    width: 467px;
+}
+
+.Tang .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "ËÎÌå";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.Tang .panel p {
+    margin-top: 20px;
+}
+
+.Tang .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.Tang .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.Tang .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.Tang .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.Tang .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.Tang .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.Tang .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.Tang .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.Tang .grade .n4 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.Tang .grade .n5 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.Tang .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.Tang .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.Tang .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.Tang .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Tang .delTitle h5 {
+    float: left;
+}
+
+.Tang .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.Tang .details li {
+    line-height: 28px;
+}
+
+.Tang .details li em {
+    float: right;
+}
+
+.Tang .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*天香*/
+
+.incense {
+    display: none;
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/tianxiang.jpg") 375px -0px no-repeat;
+}
+
+.kz-center-guide .incense .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.incense .panel .introduce {
+    width: 467px;
+}
+
+.incense .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "宋体";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.incense .panel p {
+    margin-top: 20px;
+}
+
+.incense .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.incense .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.incense .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.incense .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.incense .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.incense .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.incense .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.incense .grade .n3 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.incense .grade .n4 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.incense .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.incense .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.incense .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.incense .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.incense .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.incense .delTitle h5 {
+    float: left;
+}
+
+.incense .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.incense .details li {
+    line-height: 28px;
+}
+
+.incense .details li em {
+    float: right;
+}
+
+.incense .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+/*五毒*/
+
+.cruel {
+    width: 872px;
+    height: 485px;
+    background: url("../images/lodge/wudu%20(2).jpg") no-repeat;
+    background-position: 550px -21px;
+}
+
+.kz-center-guide .cruel .panel {
+    width: 872px;
+    height: 485px;
+    position: relative;
+    /*background-color: #fff;*/
+
+}
+
+.cruel .panel .introduce {
+    width: 467px;
+}
+
+.cruel .panel h4 {
+    color: #2FC3A2;
+    font-size: 42px;
+    font-family: "宋体";
+    padding-top: 30px;
+    font-weight: normal;
+}
+
+.cruel .panel p {
+    margin-top: 20px;
+}
+
+.cruel .panel p a {
+    color: #fff;
+    margin-top: 20px;
+    background-color: #FF8F17;
+}
+
+.cruel .panel .difficulty {
+    height: 100px;
+    width: 450px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.cruel .panel .difficulty .handle {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.cruel .difficulty ul li {
+    width: 16px;
+    height: 16px;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+
+}
+
+.cruel .grade {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.cruel .grade .n1 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.cruel .grade .n2 {
+    background: url("../images/lodge/spr-2.png") 0 0 no-repeat;
+}
+
+.cruel .grade .n3 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.cruel .grade .n4 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.cruel .grade .n5 {
+    background: url("../images/lodge/spr-2.png") -25px 0 no-repeat;
+}
+
+.cruel .weapon {
+    height: 14px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.cruel .difficulty img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cruel .details {
+    height: 232px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.cruel .delTitle {
+    height: 24px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cruel .delTitle h5 {
+    float: left;
+}
+
+.cruel .delTitle .many {
+    color: #ccc;
+    float: right;
+}
+
+.cruel .details li {
+    line-height: 28px;
+}
+
+.cruel .details li em {
+    float: right;
+}
+
+.cruel .details li a {
+    margin-left: 10px;
+    color: #666767;
+}
+
+.w {
+    width: 1215px;
+    margin: 0 auto;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f1f1f1 url("../images/lodge/kz-bg2.jpg") center bottom no-repeat;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: url("../images/lodge/kz-bg.png") no-repeat center top;
+    margin-top: -558px;
+}
+
+.content {
+    height: 2280px;
+}
+
+.header {
+    height: 380px;
+    position: relative;
+}
+
+.logo {
+    width: 290px;
+    height: 50px;
+    background: url(../images/lodge/kz-logo.png) no-repeat;
+    overflow: hidden;
+    text-indent: -99999999px;
+    cursor: pointer;
+}
+
+.header .tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.downloadArea {
+    width: 200px;
+    height: 540px;
+    float: left;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.down-top a {
+    display: block;
+    height: 105px;
+    width: 200px;
+}
+
+.down-main {
+    overflow: hidden;
+    width: 200px;
+    height: 435px;
+    background-color: #ccc;
+}
+
+.down-main li {
+    float: left;
+    margin: 1px 1px 0 0;
+    background-color: #fff;
+}
+
+.down-main a {
+    display: block;
+    width: 99px;
+    height: 70px;
+    color: #ccc;
+    text-indent: -99999px;
+    background-image: url(../images/lodge/kz-down.png);
+}
+
+.down-main a:hover {
+    background-color: #d3ede7;
+}
+
+.down-main a.li-num01, .down-main a.li-num02 {
+    height: 80px;
+}
+
+.down-main a.last {
+    background-image: none;
+    font-size: 14px;
+    line-height: 62px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.li-num01 {
+    background-position: 0 -1px;
+}
+
+.li-num02 {
+    background-position: -100px -1px;
+}
+
+.li-num03 {
+    background-position: 0 -82px;
+}
+
+.li-num04 {
+    background-position: -100px -82px;
+}
+
+.li-num05 {
+    background-position: 0 -153px;
+}
+
+.li-num06 {
+    background-position: -100px -153px;
+}
+
+.li-num07 {
+    background-position: 0 -224px;
+}
+
+.li-num08 {
+    background-position: -100px -224px;
+}
+
+.li-num09 {
+    background-position: 0 -295px;
+}
+
+.li-num10 {
+    background-position: -100px -295px;
+}
+
+.li-num11 {
+    background-position: 0 -366px;
+}
+
+.show {
+    overflow: hidden;
+    width: 585px;
+    height: 360px;
+    float: left;
+    margin: 0 15px 0px 0px;
+}
+
+.show ul {
+    width: 586px;
+    height: 361px;
+}
+
+.show li {
+    float: left;
+}
+
+.show li:hover {
+    opacity: 0.8;
+}
+
+.show .one {
+    margin-right: 15px;
+}
+
+.show .two {
+    margin-bottom: 15px;
+}
+
+.show .three {
+    margin-right: 15px;
+}
+
+.news {
+    width: 360px;
+    height: 347px;
+    float: right;
+    padding: 10px 20px 4px 20px;
+    background-color: #fff;
+}
+
+.news-title {
+    position: relative;
+    color: #45c7ac;
+}
+
+.news-title .ico {
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    left: 130px;
+    bottom: 8px;
+    background: url("../images/lodge/kz-ico.png");
+}
+
+.news-title .on {
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.news-title .all-infor {
+    position: absolute;
+    left: 190px;
+    bottom: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.news-title .more {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    cursor: pointer;
+    color: #45C7AC;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.news li a {
+    display: block;
+    position: relative;
+    color: #939393;
+    line-height: 30px;
+}
+
+.all-news-lis {
+    display: none;
+}
+
+.news-main:hover {
+    color: #45c7ac;
+}
+
+.news-date {
+    float: right;
+}
+
+.play {
+    background: #fff;
+    width: 1000px;
+    height: 412px;
+    overflow: hidden;
+    margin-bottom: 70px;
+    color: #6b6b6b;
+}
+
+.play .pm {
+    padding: 17px 20px 0;
+}
+
+.play-title {
+    position: relative;
+    font-size: 30px;
+    height: 30px;
+    margin: 10px 0;
+    line-height: 30px;
+    color: #45c7ac;
+    font-weight: bold;
+}
+
+.play-title .ico {
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+    background: url("../images/lodge/kz-ico.png") 0 -48px;
+}
+
+.play-content {
+    width: 1000px;
+    height: 318px;
+    overflow: hidden;
+}
+
+.play-content .bs {
+    width: 428px;
+}
+
+.play-content .xx {
+    margin-left: 15px;
+}
+
+.play-content .wait {
+    width: 60px;
+    text-align: center;
+}
+
+.play-content > li {
+    width: 86px;
+    height: 318px;
+    float: left;
+    overflow: hidden;
+}
+
+.play-box-left {
+    width: 126px;
+    float: left;
+}
+
+.play-box-main {
+    width: 300px;
+    height: 318px;
+    /*background-color: red;*/
+    float: right;
+    /*display: none;*/
+}
+
+.play-box-main .int {
+    height: 60px;
+    padding: 23px 0 20px 0;
+}
+
+.play-box-main h3 {
+    width: 30px;
+    height: 60px;
+    line-height: 30px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+}
+
+.play-box-main p {
+    padding: 0 12px;
+    margin-left: 2px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.play-box-main p a {
+    display: inline-block;
+    width: 32px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: #ff8f17;
+    color: #fff;
+}
+
+.play-box .conlist h4 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    position: relative;
+}
+
+.play-box h4 a {
+    width: 40px;
+    height: 22px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+    background: url("../images/lodge/conlist-more.png") no-repeat;
+}
+
+.play-box .conlist li {
+    height: 30px;
+    overflow: hidden;
+}
+
+.conlist li a {
+    position: relative;
+    display: block;
+    width: 300px;
+    color: #939393;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+    margin: 7px 0;
+}
+
+.play-box .conlist em {
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    color: #666767;
+    overflow: hidden;
+    width: 270px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.play-box .conlist em:hover {
+    color: #45c7ac;
+}
+
+.play-box .conlist span {
+    position: absolute;
+    right: 0;
+}
+
+/*.play-content{*/
+/*width: 1000px;*/
+/*overflow: hidden;*/
+/*}*/
+/*.play-box{*/
+/*overflow: hidden;*/
+/*width: 86px;*/
+/*height: 317px;*/
+/*float: left;*/
+/*margin-top: 30px;*/
+/*}*/
+
+/*.play-content .bs{*/
+/*width: 428px;*/
+/*}*/
+/*.play-box-left{*/
+/*float: left;*/
+/*width: 126px;*/
+/*}*/
+
+/*.play-content .one{background-position: 0 0px}*/
+/*.play-content .two{background-position: 58px 0}*/
+/*.play-content .three{background-position:116px 0}*/
+/*.play-content .four{background-position: 174px 0}*/
+/*.play-content .five{background-position: 0 232px}*/
+/*.play-content .six{background-position: 0 290px}*/
+/*.play-content .seven{background-position: 0 348px}*/
+/*.play-content .eight{background-position: 0 406px}*/
+/*.play-content .nine{background-position: 0 406px}*/
+
+/*.play-box .int{*/
+/*overflow: hidden;*/
+/*padding-top: 10px;*/
+/*z-index: 11;*/
+/*position: relative;*/
+/*}*/
+/*.play-box .int h3{*/
+/*font-size: 28px;*/
+/*width: 30px;*/
+/*font-family: "ËÎÌå";*/
+/*float: left;*/
+/*margin-right: 12px;*/
+/*line-height: 32px;*/
+/*}*/
+/*.play-box .int p{*/
+/*width: 240px;*/
+/*float: left;*/
+/*line-height: 20px;*/
+/*color: #828282;*/
+/*}*/
+/*.play-box .int a{*/
+/*display: inline-block;*/
+/*width: 32px;*/
+/*height: 14px;*/
+/*line-height: 13px;*/
+/*text-align: center;*/
+/*background: #ff8f17;*/
+/*color: #fff;*/
+/*}*/
+
+/*.play-box .conlist{*/
+/*z-index: 10;*/
+/*position: relative;*/
+/*margin-left: 126px;*/
+/*}*/
+/*.play-box .conlist h4{*/
+/*padding-top: 12px;*/
+/*font-size: 16px;*/
+/*height: 16px;*/
+/*position: relative;*/
+/*}*/
+/*.play-box .conlist h4 a{*/
+/*position: absolute;*/
+/*top: 2px;*/
+/*right: 0;*/
+/*width: 40px;*/
+/*height: 22px;*/
+/*background: url("../lodge/conlist-more.png") no-repeat;*/
+/*}*/
+/*.play-box li a{*/
+/*display: inline-block;*/
+/*position: absolute;*/
+/*margin: 0;*/
+/*right: 0;*/
+/*width: 40px;*/
+/*height: 22px;*/
+/*transition: all 0.6s ease;*/
+/*}*/
+/*.play-box .conlist ul {*/
+/*padding-top: 15px;*/
+/*}*/
+/*.play-box .conlist li{*/
+/*height: 30px;*/
+/*overflow: hidden;*/
+/*}*/
+/*.play-box .conlist a{*/
+/*position: relative;*/
+/*display: block;*/
+/*width: 300px;*/
+/*color: #939393;*/
+/*font-size: 12px;*/
+/*line-height: 16px;*/
+/*height: 16px;*/
+/*margin: 7px 0;*/
+/*}*/
+/*.play-box .conlist em{*/
+/*position: absolute;*/
+/*top: 0;*/
+/*margin-left: 10px;*/
+/*color: #666767;*/
+/*overflow: hidden;*/
+/*width: 270px;*/
+/*text-overflow: ellipsis;*/
+/*white-space: nowrap;*/
+/*}*/
+/*.play-box .conlist span{*/
+/*position: absolute;*/
+/*right: 0;*/
+/*}*/

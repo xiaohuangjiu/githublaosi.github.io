@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=gbk">
+<meta charset="gbk">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-TGideas">
+<meta name="Copyright" content="Tencent">
+<title>天下盟会-天涯明月刀-官方网站-腾讯游戏</title>
+<meta name="Description" content="天下四盟，各据江湖！但谁人知晓，此四大盟会，竟是当年青龙会四大龙首所创？百晓生为武林第一智者，亦正亦邪，神秘莫测。他的真正心意，究竟会将江湖大势，引向何方？青龙会与四盟之死战，傅红雪与明月心之决裂，种种遇合，会否让尘封已久的武林秘辛，慢慢浮出水面？">
+<meta name="Keywords" content="天下盟会,天涯明月刀,天涯明月刀ol,腾讯游戏,腾讯网游">
+<!-- 设计：lyamnxu | 重构：biggxie | 创建：20141219  | 团队博客：http://tgideas.qq.com -->
+<style>
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,input,select,textarea,div,table,td,th,tr,dl,dt,dd,form{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+ul,ol{list-style:none;}
+em,i{font-style:normal;}
+img{border:0;vertical-align:middle;}
+input{vertical-align:middle;}
+a{color:#a9a9a9;text-decoration:none;outline:none;hide-focus:expression(this.hideFocus=true);background-color:transparent;-webkit-tap-highlight-color:transparent;}
+div{outline:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.none{display:none;}.hide{visibility:hidden;}.visb{visibility:visible;}.pa{position:absolute;}
+@-webkit-keyframes opAct{0%{opacity:0;}100%{opacity:1;}}
+@keyframes opAct{0%{opacity:0;}100%{opacity:1;}}
+@-webkit-keyframes doudong{0%{-webkit-transform:translate3d(-1%,0,0);}30%{-webkit-transform:translate3d(1%,0,0);}60%{-webkit-transform:translate3d(-0.6%,0,0);}90%{-webkit-transform:translate3d(0.4%,0,0);}100%{-webkit-transform:none;}}
+@keyframes doudong{0%{transform:translate3d(-1%,0,0);}30%{transform:translate3d(1%,0,0);}60%{transform:translate3d(-0.6%,0,0);}90%{transform:translate3d(0.4%,0,0);}100%{-webkit-transform:none;}}
+@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,50%,0);transform:translate3d(0,50%,0);}100%{opacity:1;-webkit-transform:none;transform:none;}}
+@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,50%,0);transform:translate3d(0,50%,0);}100%{opacity:1;-webkit-transform:none;transform:none;}}
+@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);}100%{opacity:1;-webkit-transform:none;}}
+@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0);}100%{opacity:1;transform:none;}}
+@-webkit-keyframes scale1{0%{opacity:0;-webkit-transform:scale(10,10);}80%{-webkit-transform:scale(.9,.9);}100%{opacity:1;-webkit-transform:scale(1,1);}}
+@keyframes scale1{0%{opacity:0;transform:scale(10,10);}80%{transform:scale(.9,.9);}100%{opacity:1;transform:scale(1,1);}}
+@-webkit-keyframes shake{
+  0%,100%{-webkit-transform:translate3d(0,0,0);}
+  10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);}
+  20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);}
+}
+@keyframes shake{
+  0%,100%{transform:translate3d(0,0,0);}
+  30%,50%,70%{transform:translate3d(-10px,0,0);}
+  40%,60%{transform:translate3d(10px,0,0);}
+}
+@-webkit-keyframes rainDrop{0%{background-position:0 0;}100%{background-position:-1300px 1035px;}}
+@-moz-keyframes rainDrop{0%{background-position:0 0;}100%{background-position:-1300px 1035px;}}
+body{min-width:320px;background:#1e1e1e;font:14px/1.5 "\5FAE\8F6F\96C5\9ED1",arial;color:#fff;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;cursor:default;}
+#footer_ied{color:#818181;font-size:12px;padding:30px 5%;text-align:center;}
+#footer_ied a{color:#818181;}
+.snav{position:absolute;top:0;right:50px;background:#38c77b;color:#fff;height:26px;line-height:24px;padding:0 10px;z-index:10;}
+.snav a{display:inline;text-indent:0;color:#fff;}
+.snav a:hover{text-decoration:underline;}
+.snav em{margin:0 8px;}
+.snav:before,.snav:after{content:"";position:absolute;top:0;width:0;height:0;overflow:hidden;border-top:26px solid #2aa965;}
+.snav:before{left:-18px;border-left:18px solid transparent;}
+.snav:after{right:-18px;border-right:18px solid transparent;}
+.rain,.leaves{position:absolute;top:0;left:0;width:100%;height:100%;}
+.rain{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/rain-8.png) 0 0;opacity:.4;
+-webkit-animation-name:rainDrop;animation-name:rainDrop;
+-webkit-animation-timing-function:linear;animation-timing-function:linear;
+-webkit-animation-duration:1.2s;animation-duration:1.2s;
+-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;
+}
+.leaves{display:none;}
+.wrapper{text-align:center;overflow:hidden;width:100%;}
+.container{position:relative;width:960px;padding:0;margin:0 auto;text-align:left;}
+.header{position:relative;background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/bg-1.jpg) no-repeat 50% 0;}
+.header .container{height:905px;}
+.slogn{/*position:absolute;left:50%;top:136px;margin:0 0 0 -332px;*/padding:130px 0 0;width:664px;margin:0 auto;}
+.slogn .logo,.slogn h1,.slogn p{opacity:0;background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/slogn.png);background-repeat:no-repeat;text-indent:-9999px;}
+.slogn .logo{display:block;height:50px;background-position:50% 0;}
+.slogn h1{height:184px;background-position:50% -55px;margin:5px 0 8px;}
+.slogn p{position:relative;height:100px;background-position:50% -247px;text-indent:0;}
+.slogn p strong,.slogn p span{display:none;}
+.slogn p a{display:block;position:absolute;bottom:0;left:50%;width:101px;height:20px;margin:0 0 0 35px;text-indent:-9999px;}
+.allloaded{overflow-x:hidden;}
+.allloaded .wrapper{-webkit-animation-name:shake;animation-name:shake;-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2.085s;animation-delay:2.085s;}
+.allloaded .slogn .logo,.allloaded .slogn h1,.allloaded .slogn p,.allloaded .mnav .fsmh,.allloaded .mnav .sdmh,.allloaded .mnav .thmh,.allloaded .mnav .fumh{-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both;}
+.allloaded .slogn .logo,.allloaded .slogn h1{-webkit-animation-name:fadeInDown;animation-name:fadeInDown;}
+.allloaded .slogn h1,.allloaded .mnav .fsmh,.allloaded .mnav .sdmh,.allloaded .mnav .thmh,.allloaded .mnav .fumh{-webkit-animation-name:scale1;animation-name:scale1;
+-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;
+-webkit-animation-duration:.6s;animation-duration:.6s;}
+.allloaded .slogn h1{-webkit-animation-delay:1.6s;animation-delay:1.6s;}
+.allloaded .slogn p{-webkit-animation-name:fadeInUp;animation-name:fadeInUp;}
+.allloaded .mnav .fsmh{-webkit-animation-delay:.3s;animation-delay:.3s;}
+.allloaded .mnav .sdmh{-webkit-animation-delay:.6s;animation-delay:.6s;}
+.allloaded .mnav .thmh{-webkit-animation-delay:.9s;animation-delay:.9s;}
+.allloaded .mnav .fumh{-webkit-animation-delay:1.2s;animation-delay:1.2s;}
+.allloaded .mnav .fvde{-webkit-animation-name:opAct;animation-name:opAct;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2.385s;animation-delay:2.385s;}
+.mnav .fvde a,.thnav,.thnav a:hover{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/flag.png);}
+.mnav{position:relative;padding:10px 0 0 40px;*zoom:1;}
+.mnav li{opacity:0;float:left;width:184px;height:191px;}
+.mnav .sdmh,.mnav .thmh,.mnav .fumh{margin-left:-13px;}
+.mnav .sdmh{margin-right:185px;}
+.mnav .fvde{position:absolute;left:50%;top:50%;width:123px;height:124px;margin:60px 0 0 -58px;}
+.mnav a{display:block;height:100%;background-repeat:no-repeat;text-indent:-9999px;}
+.mnav .mc a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/tb-s.png);}
+.mnav .fsmh a{background-position:0 0;}
+.mnav .sdmh a{background-position:-184px 0;}
+.mnav .thmh a{background-position:-482px 0;}
+.mnav .fumh a{background-position:-666px 0;}
+.mnav .fvde a{background-position:100% 0;}
+.thnav{position:absolute;top:90px;right:20px;width:110px;height:224px;padding:0 16px 0 8px;background-position:0 0;}
+.thnav span{display:none;}
+.thnav a{display:block;text-indent:-9999px;}
+.thnav .fsbut{height:73px;}
+.thnav .sdbut{height:61px;}
+.thnav .thbut{height:66px;}
+.thnav .fsbut:hover{background-position:-134px 0;}
+.thnav .sdbut:hover{background-position:-134px -73px;}
+.thnav .thbut:hover{background-position:-134px -134px;}
+.video{position:relative;top:41.9%;width:65.5%;height:0;padding:0 0 36.84%;*height:43.1%;*padding:0;margin:0 auto;background:#000;text-align:center;box-shadow:0 0 5px rgba(0,0,0,.6);}
+.video p{position:absolute;left:0;top:50%;width:100%;margin:-7px 0 0;}
+.video video,.video a,.video img,.video object{position:absolute;top:0;left:0;}
+.video video,.video a,.video img,.pop video{width:100%;height:100%;}
+.section{clear:both;}
+.chromeframe{background:#fff9d4;color:#000;padding:10px 0;text-align:center;width:100%;border-bottom:1px solid #000;}
+.chromeframe a{color:#F13C35;}
+/* layer */
+.blackmask{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:#000;opacity:.2;filter:alpha(opacity=20);}
+.layer{display:none;position:fixed;top:50%;left:50%;width:640px;height:380px;margin:-190px 0 0 -320px;background:#fff;color:#2b2b2b;font-size:22px;box-shadow:0 0 5px rgba(0,0,0,.7);overflow:hidden;}
+.layer strong,.layerbox a{color:#fff;background:#2fb76f;}
+.layer strong{display:block;padding:10px 0;font-size:100%;font-family:kaiti,'宋体',sans-serif;text-align:center;}
+.layerbox{position:relative;height:100%;overflow:hidden;}
+.layerbox a{}
+.quts{text-align:center;}
+.questions{padding:20px;}
+.question{width:100%;text-align:center;font-size:72.7%;}
+.question th{padding:10px 0;}
+.question td{text-align:left;}
+.question td input{margin:0 10px 0 0;}
+.quts-1 .question td{padding:5px 0 5px 44%;}
+.quts-2 .question td{padding:5px 0 5px 22%;}
+.quts-3 .question td{padding:5px 0 5px 44%;}
+.quts-4 .question td{padding:5px 0 5px 40%;}
+.quts-5 .question td{padding:5px 0 5px 15%;}
+.quts-6 .question td{padding:5px 0 5px 34%;}
+.results{font-size:70%;padding:30px 245px 0 40px;}
+.results .seflag{position:absolute;top:0;right:50px;height:100%;width:117px;margin:45px 0 0;}
+.results .mask{position:absolute;bottom:0;right:0;width:307px;height:203px;background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/mask.png) no-repeat 100% 100%;}
+.results .highlight{color:#2fb76f;}
+.results h2{height:66px;font-size:280%;line-height:100%;color:#2fb76f;font-weight:bold;margin:7px 0;text-indent:-9999px;}
+.results .intro{margin:0 0 15px;text-shadow:0 0 3px rgba(255,255,255,.8);}
+.results .invte{position:relative;}
+.results .invte em{display:block;font-size:80%;line-height:132%;padding:0 0 0 100px;}
+.results .invte i{display:block;}
+.results a{display:inline-block;position:absolute;top:0;left:0;font-size:100%;padding:5px 15px;margin:0 10px 0 0;}
+.results a:hover{background:#229f5d;}
+.pages a{display:inline-block;padding:3px 15px;margin:0 10px;font-size:70%;}
+.pages a:hover{background:#229f5d;}
+.steps{margin:15px 0 0;
+display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-pack:center;-webkit-box-align:center;
+display:-moz-box;-moz-box-orient:horizontal;-moz-box-pack:center;-moz-box-align:center;
+display:-ms-box;-ms-box-orient:horizontal;-ms-box-pack:center;-ms-box-align:center;
+display:box;box-orient:horizontal;box-pack:center;box-align:center;}
+.steps i{display:inline-block;width:12px;height:12px;border-radius:50%;font-size:0;line-height:0;margin:0 5px;background:#d7d7d7;}
+.steps .cur{width:16px;height:16px;background:#2fb76f;}
+.exit{display:block;font-size:200%;padding:0 10px;position:absolute;top:0;right:0;color:#FFF;line-height:100%;}
+.exit:hover{text-shadow:0 0 3px rgba(0,0,0,.7);}
+.pages .result,.quts-1 .prev,.quts-6 .next,.rest .pages,.rest .steps{display:none;}
+.quts-6 .result{display:inline-block;}
+.dwz .layerbox{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/dwz.jpg) no-repeat 100% bottom;}
+.wls .layerbox{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/wls.jpg) no-repeat 100% bottom;}
+.hjc .layerbox{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/hjc.jpg) no-repeat 100% bottom;}
+.sly .layerbox{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/sly.jpg) no-repeat 100% bottom;}
+.dwz h2{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/dwz-w.png) no-repeat 0 50%;}
+.wls h2{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/wls-w.png) no-repeat 0 50%;}
+.hjc h2{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/hjc-w.png) no-repeat 0 50%;}
+.sly h2{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/sly-w.png) no-repeat 0 50%;}
+.dwz .seflag{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/dwz-flag.png) no-repeat 50% 0;}
+.wls .seflag{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/wls-flag.png) no-repeat 50% 0;}
+.hjc .seflag{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/hjc-flag.png) no-repeat 50% 0;}
+.sly .seflag{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/sly-flag.png) no-repeat 50% 0;}
+.vlayer{display:none;position:fixed;top:50%;left:50%;width:800px;height:450px;margin:-225px 0 0 -400px;background:#000;}
+.vlayerbox{position:relative;width:100%;height:100%;}
+.vlayerbox video,.vlayerbox embed,.vlayerbox object{display:block;position:absolute;width:100%;height:100%;top:0;left:0;}
+.vlayer .exit{width:50px;height:50px;line-height:48px;padding:0;right:-50px;background:#000;text-align:center;}
+@media screen and (min-width:959px){
+	/*.readyGO .fsmh a:hover{background-position:0 0;}
+	.readyGO .sdmh a:hover{background-position:-184px 0;}*/
+	.readyGO .thmh a:hover{background-position:-482px 0;}
+	/*.readyGO .fumh a:hover{background-position:-666px 0;}*/
+}
+@media screen and (max-width:959px){
+	.container{width:100%;}
+	.header{background:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/bg-smt.jpg) no-repeat 50% 0;/*background-size:100% auto;*/padding-bottom:15%;}
+	.header .container{height:auto;}
+	.slogn{padding:15% 0 0;width:70%;margin:0 auto;}
+	.slogn .logo,.slogn h1,.slogn p{width:100%;background-size:100% auto;}
+	.slogn .logo{height:0;padding:0 0 7.53%;}
+	.slogn h1{height:0;padding:0 0 27.71%;background-position:50% 33%;}
+	.slogn p{height:0;padding:0 0 15.06%;background-position:50% 100%;}
+	.slogn p a{left:0;width:100%;height:100%;margin:0;}
+	.mnav{padding:3% 0;margin:0 5%;overflow:hidden;}
+	.mnav li{opacity:1;position:relative;width:20%;height:0;padding:0 0 20.6%;}
+	.mnav li:nth-child(2n+2){float:right;}
+	.mnav .sdmh,.mnav .thmh,.mnav .fumh{margin-left:0;}
+	.mnav .sdmh{margin-right:0;}
+	.mnav .fvde{margin-top:-40px;margin-left:-7.95%;width:15.9%;height:0;padding:0 0 16%;}
+	.mnav li a{position:absolute;top:0;left:0;width:100%;height:100%;background-size:100% auto;}
+	.mnav .mc a{background-position:50% -1px;}
+	.mnav .fsmh a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/1.png);}
+	.mnav .sdmh a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/2.png);}
+	.mnav .thmh a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/3.png);}
+	.mnav .fumh a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/4.png);}
+	.mnav .fvde a{background-image:url(http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/play-8.png);background-position:50% 50%;}
+	.mnav .mc .cur,.readyGO .fsmh a:hover,.readyGO .sdmh a:hover,.readyGO .thmh a:hover,.readyGO .fumh a:hover{background-position:50% 1.8%;}
+	.allloaded .wrapper{-webkit-animation-delay:0.54s;animation-delay:0.54s;}
+	.allloaded .mnav .fsmh,.allloaded .mnav .sdmh,.allloaded .mnav .thmh,.allloaded .mnav .fumh,.allloaded .mnav .fvde{-webkit-animation-name:none;animation-name:none;}
+	.allloaded .slogn h1{-webkit-animation-delay:0s;animation-delay:0s;}
+}
+@media screen and (max-width:850px){
+	.vlayer .exit{top:-50px;right:0;}
+}
+@media screen and (max-width:800px){
+	.vlayer{left:0;width:100%;height:auto;margin:-28.125% 0 0;}
+	.vlayerbox{position:relative;width:100%;height:0;padding:0 0 56.25%;}
+	.vlayer .exit{position:fixed;top:0;right:0;background:rgba(0,0,0,.8);border-radius:0 0 0 50%;z-index:10000;}
+}
+@media screen and (max-width:768px){
+	.header{background-position:50% 50%;background-size:127% 100%;}
+	.thnav{top:64px;right:0;}
+}
+@media screen and (max-width:640px){
+	.snav{display:none;}
+	.thnav,.thnav a:hover{background-image:none;}
+	.thnav{width:78px;height:auto;right:2%;top:16%;padding:0;font-size:12px;background-color:#7c1b19;border-radius:15px;box-shadow:0 0 5px rgba(94,21,19,.9);overflow:hidden;}
+	.thnav span{display:block;padding:8% 15%;}
+	.thnav span,.thnav a{text-align:center;color:#fefdfc;white-space:nowrap;}
+	.thnav .fsbut,.thnav .sdbut,.thnav .thbut{height:auto;}
+	.thnav a{display:none;padding:10% 0;text-indent:0;border-top:1px solid #591a18;}
+	.thnav a:hover{background-color:#901f1d;}
+	.open a{display:block;}
+	.steps{margin:10% 0 0;}
+	.layer{top:0;left:0;width:100%;height:100%;margin:0;font-size:22px;z-index:10000;}
+	.layer .results .seflag{display:none;background:none;}
+	.results .mask{display:none;background:none;}
+}
+@media screen and (max-width:639px){
+	.layer h2{height:auto;margin:2% 0;text-indent:0;background:none;}
+	.results .invte em{padding:0;}
+	.questions,.results{padding:5% 10%;}
+	.quts-1 .question td,.quts-2 .question td,.quts-3 .question td,.quts-4 .question td,.quts-5 .question td,.quts-6 .question td{padding:3% 5%;}
+	.question{text-align:left;}
+	.results a{position:static;padding:2% 10%;margin:0 0 10px;border-radius:3px;box-shadow:0 0 5px rgba(0,0,0,.8);}
+}
+@media (max-width:480px){
+	.header{padding-bottom:30%;}
+	.slogn{padding:25% 0 0;}
+	.mnav{margin:0 8%;}
+	.mnav li{width:36%;padding:0 0 37.35%;}
+	.mnav li:nth-child(n+3){margin-top:6%;}
+	.mnav li.fvde{width:22%;padding:0 0 22.18%;margin-top:-11.09%;margin-left:-11%;}
+	.mnav .mc .cur,.readyGO .fsmh a:hover,.readyGO .sdmh a:hover,.readyGO .thmh a:hover,.readyGO .fumh a:hover{background-position:50% 1%;}
+	.exit{top:5px;}
+}
+@media (max-width:414px){
+	.header{background-size:127% 115%;}
+	.mnav{margin:0 18%;}
+	.mnav li{width:50%;padding:0 0 51.8%;}
+	.mnav li.fvde{position:relative;left:0;top:0;width:100%;height:36px;line-height:36px;margin:10% 0 0;padding:0;}
+	.mnav .fvde a{position:static;width:70%;background-image:none;background-color:#2fb76f;text-indent:0;margin:0 auto;box-shadow:0 0 5px rgba(75,195,113,.8);border-radius:5px;text-align:center;color:#fff;font-size:12px;}
+	.mnav .fvde a:hover{background-color:#27a663;}
+	.thnav span{display:none;}
+	.thnav{position:static;width:auto;margin:0 18%;height:36px;line-height:36px;padding:5px 0;margin-top:2%;background-color:transparent;box-shadow:none;}
+	.thnav .fsbut{display:block;width:70%;margin:0 auto;padding:0;box-shadow:0 0 5px rgba(230,160,160,.8);background-color:#7c1b19;border-radius:5px;text-align:center;color:#fff;}
+	.layer{font-size:20px;}
+	.question td{padding:4% 0;}
+}
+@media (max-width:375px){
+	.layer{font-size:19px;}
+}
+@media (max-width:360px){
+	.layer{font-size:18px;}
+}
+@media (max-width:320px){
+	.layer{font-size:17.2px;}
+}
+@media (max-height:375px){
+	.question td{padding:2.6% 5%;}
+	.steps{margin:5% 0 0;}
+}
+</style>
+<!--[if IE 9]>
+<style>
+.slogn .logo,.slogn h1,.slogn p,.mnav li{opacity:1;}
+</style>
+<![endif]-->
+<!--[if lte IE 9]>
+<style>
+.mnav .fsmh a:hover{background-position:0 0;}
+.mnav .sdmh a:hover{background-position:-184px 0;}
+.mnav .thmh a:hover{background-position:-482px 0;}
+.mnav .fumh a:hover{background-position:-666px 0;}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+body{min-width:960px;}
+.rain{filter:alpha(opacity=40);}
+.exit{top:5px;}
+.vlayer .exit{top:0;}
+</style>
+<![endif]-->
+<!--[if lte IE 7]>
+<style>
+.mnav .fvde{margin:-36px 0 0 -58px;}
+</style>
+<![endif]-->
+<!--[if IE 6]>
+<style>
+.header{background:url(http://ossweb-img.qq.com/features/wuxia/act/a20141219sdmh/bg-cc-1-ie.jpg) no-repeat 50% 0;}
+.header .container{background:url(http://ossweb-img.qq.com/features/wuxia/act/a20141219sdmh/bg-c-1-ie.jpg) no-repeat 50% 0;}
+.slogn .logo, .slogn h1, .slogn p{background-image:none;}
+.layer,.blackmask,.vlayer{position:absolute;}
+.layer h2{background:none;text-indent:0;line-height:66px;}
+.results .mask{display:none;}
+</style>
+<![endif]-->
+<link href="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/ost.css" rel="stylesheet" type="text/css"><link href="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/bugFeedback.css" rel="stylesheet"><link rel="stylesheet" type="text/css" media="all" href="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/gpmhistory_wuxia.css"><script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/wuxia_history_online.js"></script></head>
+<body style="padding-top: 42px;" class="allloaded">
+<!--[if lt IE 9]>
+<p class="chromeframe">您使用的IE浏览器版本过低。<a href="http://windows.microsoft.com/" target="_blank">升级您的IE浏览器</a>，或使用<a href="http://www.google.cn/intl/zh-CN/chrome/" target="_blank">Google Chrome</a>、<a href="http://www.firefox.com.cn/download/" target="_blank">Firefox</a>等高级浏览器，将会得到更好的体验！</p>
+<![endif]-->
+<div class="wrapper readyGO" id="wrapper">
+	<div class="header">
+		<div class="rain"></div><div class="leaves"></div>
+		<div class="snav"><a href="http://wuxia.qq.com/act/a20141226ljty/" target="_balnk" onclick="pgvSendClick({hottag:'a20141219sdmh.but.ljtyindex'});">浪迹天涯首页</a><em>|</em><a href="http://wuxia.qq.com/" target="_balnk" onclick="pgvSendClick({hottag:'a20141219sdmh.but.togwhome'});">官网首页</a></div>
+		<div class="container">
+			<div class="slogn">
+				<strong class="logo">天涯明月刀</strong>
+				<h1>天下盟会</h1>
+				<p><strong>天下大势  四盟分立</strong><span>天下四盟，各据江湖！但谁人知晓，此四大盟会，竟是当年青龙会四大龙首所创？百晓生为武林第一智者，亦正亦邪，神秘莫测。他的真正心意，究竟会将江湖大势，引向何方？青龙会与四盟之死战，傅红雪与明月心之决裂，种种遇合，会否让尘封已久的武林秘辛，慢慢浮出水面？</span><a href="http://wuxia.qq.com/webplat/info/news_version3/5012/5013/8690/m7090/201412/298677.shtml" onclick="pgvSendClick({hottag:'a20141219sdmh.but.howset'});" target="_blank">【查看四盟设定】</a></p>
+			</div>
+			<ul class="mnav">
+				<li class="mc fsmh"><a class="hasstate" href="http://wuxia.qq.com/act/a20141219sdmh/tqf/" onclick="pgvSendClick({hottag:'a20141219sdmh.but.qrkj'});">情人看剑</a></li>
+				<li class="mc sdmh"><a class="hasstate" href="http://wuxia.qq.com/act/a20141219sdmh/qwy/" onclick="pgvSendClick({hottag:'a20141219sdmh.but.mskh'});">陌上开花</a></li>
+				<li class="mc thmh"><a class="hasstate" href="http://wuxia.qq.com/act/a20141219sdmh/lyt/" onclick="pgvSendClick({hottag:'a20141219sdmh.but.yrby'});">愚人不愚</a></li>
+				<li class="mc fumh"><a class="hasstate" href="http://wuxia.qq.com/act/a20141219sdmh/yzq/" onclick="pgvSendClick({hottag:'a20141219sdmh.but.lxzq'});">立夏知秋</a></li>
+				<li class="fvde"><a href="javascript:main.startPlayVideo();" onclick="pgvSendClick({hottag:'a20141219sdmh.but.video'});">点击播放预告视频</a></li>
+			</ul>
+			<div class="thnav" id="thnav"><span class="more" id="more">更多热点</span><a class="fsbut but" href="javascript:loginFunc();" onclick="pgvSendClick({hottag:'a20141219sdmh.but.test'});">盟会小测试</a><a class="sdbut but" href="http://weibo.com/p/10080877aa5423f40ecee5f385ad2decbb71bf/home?pids=Pl_Third_App__9&amp;feed_sort=timeline&amp;feed_filter=timeline" target="_blank" onclick="pgvSendClick({hottag:'a20141219sdmh.but.wbjsq'});">微博寄思情</a><a class="thbut but" href="http://tieba.baidu.com/p/3497680224?qq-pf-to=pcqq.group" target="_blank" onclick="pgvSendClick({hottag:'a20141219sdmh.but.tbtrx'});">贴吧同人秀</a></div>
+		</div>
+	</div>
+</div>
+<div class="blackmask" id="blackmask"></div>
+<div class="layer" id="testlayer">
+	<div class="layerbox" id="layerbox"><strong>测一测你最适合加入的盟会</strong><div class="" id="layerct"></div>
+		<p class="pages" id="page"><a class="chos prev" href="javascript:;">上一题</a><a class="chos next" href="javascript:;">下一题</a><a class="chos result" href="javascript:;">查看结果</a></p>
+		<p class="steps" id="step"><i></i><i></i><i></i><i></i><i></i><i></i></p>
+	</div><a class="exit" href="javascript:;" title="关闭">×</a>
+</div>
+<div class="vlayer" id="videolayer">
+	<div class="vlayerbox" id="video"></div>
+	<a class="exit" href="javascript:;" title="关闭">×</a>
+</div>
+<script type="text/javascript">
+var basejs = [
+	'http://ossweb-img.qq.com/images/js/milo/milo.js'
+];
+
+if(/iphone|ios|android|mini|mobile|mobi|Nokia|Symbian|iPod|iPad|Windows\s+Phone|MQQBrowser|wp7|wp8|UCBrowser7|UCWEB|360\s+Aphone\s+Browser|blackberry/i.test(navigator.userAgent)){
+	basejs = [
+		'http://ossweb-img.qq.com/images/js/mobile/util/zepto.js',
+		'http://ossweb-img.qq.com/images/js/mobile/milo.js'
+	]
+}
+for (var i = 0; i < basejs.length; i++) {
+	document.write('<script type="text/javascript" src="' + basejs[i] + '"></s'+'cript>');
+}
+</script><script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/milo.js"></script>
+<script src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/foot.js"></script><div id="footer_ied"><div class="wrap_ied"><p><a href="http://ieg.tencent.com/" target="_blank">腾讯互动娱乐</a> | <a href="http://game.qq.com/contract.shtml" target="_blank">服务条款</a> | <a href="http://adver.qq.com/" target="_blank">广告服务</a> | <a href="http://game.qq.com/hr/" target="_blank">腾讯游戏招聘</a> | <a href="http://service.qq.com/" target="_blank">腾讯游戏客服</a> | <a href="http://game.qq.com/gnav" target="_blank">游戏地图</a> | <a href="http://tgact.qq.com/" target="_blank">游戏活动</a> | <a href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbottom" target="_blank">成长守护平台</a> | <a href="http://game.qq.com/brand/business.htm" target="_blank">商务合作</a> | <a href="http://www.qq.com/map/" target="_blank">网站导航</a></p><p class="e">COPYRIGHT &#169; 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.</p><p><a href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" target="_blank">腾讯公司 版权所有</a></p></div></div><script src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/dr.js" type="text/javascript"></script>
+<script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/sign.js"></script>
+<script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/reporting.js"></script>
+<script>
+var glb={
+	d:document,nau:navigator.userAgent,
+	getId:function(id){return this.d.getElementById(id)},
+	newElem:function(o){return this.d.createElement(o);},
+	getElems:function(el,o){return el.getElementsByTagName(o);},
+	st:function(){return (this.d.body.scrollTop)?this.d.body.scrollTop:this.d.documentElement.scrollTop;},
+	wh:function(){return(window.innerHeight)?window.innerHeight:(this.d.documentElement&&this.d.documentElement.clientHeight)?this.d.documentElement.clientHeight:this.d.body.offsetHeight;},
+	offset:function(o){var y=o.offsetTop;if(o.style.position=='absolute')return y;while(o=o.offsetParent){y+=o.offsetTop;}return y;},
+	addEvent:function(a,b,c,d){if(a.addEventListener){a.addEventListener(b,c,d)}else if(a.attachEvent){a.attachEvent('on'+b,c)}},
+	delEvent:function (a,b,c,d){if(a.removeEventListener){a.removeEventListener(b,c,d)}else if(a.detachEvent){a.detachEvent('on'+b,c)}},
+	delayLoad:function(url,callback){
+		var script=this.newElem('script');
+		script.type="text/javascript";
+		if(script.readyState){
+			script.onreadystatechange=function(){
+				if(script.readyState=="loaded"||script.readyState=="complete"){
+					script.onreadystatechange=null;
+					if(callback){callback();};
+				};
+			};
+		}else{
+			script.onload=function(){
+				if(callback){
+					callback();
+				};
+			};
+		};
+		script.src=url;
+		this.d.body.appendChild(script);
+	}
+};
+glb.brow={
+	isLowBrow:!-[1,],
+	isIE9:/MSIE 9/i.test(glb.nau),
+	isIE6:/MSIE 6/i.test(glb.nau),
+	isLowIE:/MSIE 6|MSIE 7/i.test(glb.nau),
+	isAndr:/Android/i.test(glb.nau),
+	isApple:/iPhone|iTouch|iPad/i.test(glb.nau),
+	isBlackBerry:/BlackBerry/i.test(glb.nau),
+	isWindowsPhone:/IEMobile/i.test(glb.nau),
+	isMobile:/Android|iPhone|iTouch|iPad|BlackBerry|IEMobile|Mobile/i.test(glb.nau)
+};
+glb.delayLoadPic=function(area){
+	var a={pics:null,len:null,picarray:[]};
+	a.pics=glb.getElems(area,'img');
+	a.len=a.pics.length;
+	for(var i=0;i<a.len;i++){a.picarray[i]=a.pics[i];};
+	a.looPic=function(){
+		var reheight=glb.wh(),residue=a.picarray.length,top=null,op=null,ut=null;
+		if(residue!=0){
+			top=glb.d.documentElement.scrollTop||glb.d.body.scrollTop;
+			for(var j=residue;j--;){
+				op=a.picarray[j];
+				if(op.getAttribute("data-src")){
+					ut=glb.offset(op)-top;
+					if(ut<reheight){
+						op.src=op.getAttribute("data-src");
+						op.removeAttribute('data-src');
+						a.picarray.splice(j,1);
+					};
+				};
+			};
+		}else{
+			glb.delEvent(window,"scroll",a.looPic,false);
+			glb.delEvent(window,"resize",a.looPic,false);
+		};
+	};
+	a.looPic();
+	glb.addEvent(window,"scroll",a.looPic,false);
+	glb.addEvent(window,"resize",a.looPic,false);
+};
+var appVideo=function(_o){
+	var _ipurl=_o.vl.vi[0].ul.ui[0].url,
+		_name=_o.vl.vi[0].fn,
+		_vkey=_o.vl.vi[0].fvkey,
+		_br=_o.vl.vi[0].br,
+		_platform=2,
+		_fmt='auto',
+		_level=0,
+		_sdtfrom='v3010',
+		_ar=[],_url=null,_s=null,_isauto=null;
+	if('1'==glb.device){
+		_ar=_o.vl.vi[0].fn.split('.');
+		if(_o.vl.vi[0].cl.ci&&_o.vl.vi[0].cl.ci[0].idx){_ar.splice(_ar.length-1,0,_o.vl.vi[0].cl.ci[0].idx);};
+		_name=_ar.join('.');
+	};
+	_url=_ipurl+_name+'?vkey='+_vkey+'&br='+_br+'&platform='+_platform+'&fmt='+_fmt+'&level='+_level+'&sdtfrom='+_sdtfrom;
+	_isauto=(!glb.brow.isMobile)?' autoplay="autoplay"':'';
+	_s='<video id="player" src="'+_url+'"'+_isauto+' controls="controls"></video>';
+	glb.v.innerHTML=_s;
+	glb.vplayer=glb.getId('player');
+	glb.playEvent=function(){
+		var curstate=(glb.vplayer.paused||glb.vplayer.ended)?1:0;
+		if(glb.d.visibilityState=='hidden'){
+			glb.vplayer.pause();
+			glb.initiative=(1==curstate&&glb.initiative!=null)?1:0;
+		}else{
+			if(glb.initiative){glb.initiative=0;return;}
+			if(!glb.initiative){glb.initiative=0;glb.vplayer.play();}
+		};
+	};
+	if(!glb.brow.isMobile){glb.playEvent();};
+	glb.addEvent(glb.d,'visibilitychange',glb.playEvent,false);
+};
+glb.allEvent=function(vid){
+	glb.v=glb.getId('video');
+	var wrap=glb.getId('wrap'),stopDef=function(e){e.preventDefault();},
+	insertVideo=function(){
+		var url='http://imgcache.qq.com/tencentvideo_v1/player/TPout.swf?autoplay=1&amp;outhost=http://wuxia.qq.com/&amp;skin=http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf&amp;vid='+vid,rnd=(new Date).valueOf(),fmt=null;
+		if(!!(glb.newElem('video').canPlayType)){
+			glb.device=((glb.brow.isAndr||glb.brow.isApple)?'11001':'1');
+			fmt=(glb.brow.isAndr||glb.brow.isApple)?'auto':'fhd';
+			url='http://vv.video.qq.com/getinfo?vids='+vid+'&platform='+glb.device+'&charge=0&otype=json&defaultfmt='+fmt+'&sb=0&nocache=0&_rnd='+rnd+'&callback=appVideo';
+			glb.delayLoad(url);
+		}else{
+			glb.v.innerHTML='<object width="100%" height="100%" codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab#version=10,0,0,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="video_w0015pec1lz"><param value="'+url+'" name="movie"><param value="opaque" name="wmode"><param value="always" name="allowscriptaccess"><param value="high" name="quality"><param value="true" name="allowfullscreen"><param value="all" name="allownetworking"><embed width="100%" height="100%" align="middle" wmode="opaque" src="'+url+'" quality="high" name="_playerswf" id="_playerswf" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></object>';
+		};
+	};
+	insertVideo();
+};
+var Main=function(){
+	this.test=0;
+	this.state=0;
+	this.nav=glb.getId('thnav');
+	if(glb.brow.isMobile){this.allButEvent();};
+	if(!glb.brow.isLowBrow){this.menuEvent();};
+	//if(glb.brow.isMobile){glb.allEvent('e00151c1l5k');};
+};
+Main.prototype.startPlayVideo=function(){
+	var self=this,setEquip=function(){return (glb.brow.isMobile)?'touchstart':'click';},
+	videolayer=glb.getId('videolayer'),
+	bmask=glb.getId('blackmask'),eq=setEquip(),exitVideo=function(e){
+		var e=e||window.event,target=e.target||e.srcElement;
+		if('A'==target.nodeName&&/exit/i.test(target.className)){
+			videolayer.style.display=bmask.style.display='none';
+			glb.getId('video').innerHTML='';
+			glb.delEvent(videolayer,eq,exitVideo,false);
+			if(e.preventDefault){e.preventDefault();}else{e.returnValue=false;};
+		}else{return;};
+	};
+	videolayer.style.display=bmask.style.display='block';
+	glb.allEvent('f0015t0zvd6');
+	glb.addEvent(videolayer,eq,exitVideo,false);
+};
+Main.prototype.menuEvent=function(){
+	var self=this,chageClass=function(){
+		var c=self.nav.className;
+		self.nav.className=(/open/i.test(c))?c.replace(/ open/,''):c+' open';
+	},openMenu=function(e){
+		var e=e||window.event,target=e.target||e.srcElement;
+		if('SPAN'==target.nodeName&&'more'==target.className){
+			if(e.preventDefault){e.preventDefault();}else{e.returnValue=false;};
+			chageClass();
+		};
+	};
+	glb.addEvent(self.nav,'touchstart',openMenu,false);
+	glb.addEvent(self.nav,'click',openMenu,false);
+};
+Main.prototype.allButEvent=function(){
+	var self=this,allbut=glb.d.querySelectorAll('.hasstate');
+	for(var i=0,len=allbut.length;i<len;i++){
+		allbut[i].ontouchstart=function(){this.className+=" cur";};
+		allbut[i].ontouchend=function(){this.className=this.className.replace(/ cur/,'');};
+	};
+};
+Main.prototype.addClassName=function(e){
+	var e=e||window.event,target=e.target||e.srcElement;
+	if(target.className=='wrapper'){target.className+=' readyGO';};
+};
+Main.prototype.ueserTestFunc=function(){
+	var self=this,
+	layer=glb.getId('testlayer'),
+	layerct=glb.getId('layerct'),
+	layerbox=glb.getId('layerbox'),
+	bmask=glb.getId('blackmask'),
+	page=glb.getId('page'),
+	step=glb.getId('step'),
+	score=[0,0,0,0],fm=null,index=[],rt=null,questions=[
+		{"q":"如果回到古代，你最希望自己成为以下哪一个人物？","a":["杨过","萧峰","成吉思汗","黄蓉"],"n":19},
+		{"q":"如果你有机会在任意一个地方建造属于自己的房子，你会选？","a":["茂密的森林里搭建在两棵大树顶上的木屋","河道错综复杂的小镇上一座神秘的城堡","山顶一个可以俯瞰全城的别墅","海边依山而建的海景房"],"n":26},
+		{"q":"一个人在家看电视的，感觉无聊了，随手抓起一样桌上吃的东西，你会选择？","a":["辣牛肉干","奥利奥","水烟","桃子"],"n":12},
+		{"q":"坐飞机出门旅行，如果可以任意选择座位，你会选择哪一个位置？","a":["靠窗的位置","靠过道的位置","靠门的位置","后排的位置"],"n":8},
+		{"q":"独自呆在家中，如果点亮房间里的灯，你会想要打开哪一盏呢？","a":["沿屋顶边线排列的一排小顶灯","照亮你一个人的视线的小台灯","足以照亮房间每一个角落的富丽堂皇的大吊灯","不开灯，静静坐在窗边，看着外面昏黄的月光和路灯"],"n":13},
+		{"q":"假如有一天你偶遇了神仙，他答应帮你实现以下的一个愿望，你会选择哪一个？","a":["一只会讲人话的猫","一个永远不会背叛你的真心朋友","拥有巨大的财富","时光倒流，回到过去"],"n":22}
+	],rasults=[
+		{"c":"sly","mh":"水龙吟","ir":"代表潇洒不羁的江湖态度<br>盟主<b class=\"highlight\">唐青枫</b>，为移花宫传人。风度翩翩而温柔优雅，幽默灵动却深藏不露；无人可以束缚。"},
+		{"c":"wls","mh":"万里殺","ir":"代表维护正义的江湖态度<br>盟主<b class=\"highlight\">离玉堂</b>，是天波府之下属。正直侠义，为国为民。但一旦触及底线就会化身黑暗骑士，以自我的方式裁决正义。"},
+		{"c":"dwz","mh":"帝王州","ir":"代表称霸天下的江湖态度<br>盟主<b class=\"highlight\">叶知秋</b>，乃上官金虹之婿。命负天煞孤星，至亲至爱之人惨死，却绝不屈服于命运。"},
+		{"c":"hjc","mh":"寒江城","ir":"代表睿智操控的江湖态度<br>盟主<b class=\"highlight\">曲无忆</b>，是百晓生之女徒。冷淡绝情，智商极高，认为武道不过是莽者所为，真正操控江湖建立秩序，需要依靠智慧。"}
+	],si=glb.getElems(step,'i'),ci=null,reQuestion=function(){
+		return '<form name="QATest"><table class="question"><thead><tr><th>'+questions[self.test].q+'</th></tr></thead><tbody><tr><td><input id="c1" type="radio" name="q" value="0" /><label for="c1">A&nbsp;'+questions[self.test].a[0]+'</label></td></tr><tr><td><input id="c2" type="radio" name="q" value="1" /><label for="c2">B&nbsp;'+questions[self.test].a[1]+'</label></td></tr><tr><td><input id="c3" type="radio" name="q" value="2" /><label for="c3">C&nbsp;'+questions[self.test].a[2]+'</label></td></tr><tr><td><input id="c4" type="radio" name="q" value="3" /><label for="c4">D&nbsp;'+questions[self.test].a[3]+'</label></td></tr></tbody></table></form>';
+	},reAnswer=function(n){
+		return '<i class="seflag"></i><i class="mask"></i><span class="ft">你最适合加入的盟会</span><h2>'+rasults[n].mh+'</h2><p class="intro">'+rasults[n].ir+'</p><p class="invte"><a href="javascript:doReg(9324);amsSubmit(15330,120654);">立即预约</a><em class="stips">2月14日前点击预约'+rasults[n].mh+'盟会内容更新提醒!<i class="highlight">即可获得50个天积点！</i></em></p>';
+	},startTest=function(){
+		self.test=0;self.state=0;index=[];
+		turnPage();
+		layer.style.display=bmask.style.display='block';
+		glb.addEvent(page,eq,turnPage,false);
+		glb.addEvent(layer,eq,exitLayer,false);
+	},pushIndex=function(){
+		for(var i=0,len=fm.length;i<len;i++){
+			if(fm[i].checked){
+				index[self.test]=i;
+				return 1;
+			};
+		};
+		alert('来都来了，就选个答案呗~');
+		return 0;
+	},shiftIndex=function(){
+		if(fm[index[self.test]]&&index[self.test]!=undefined){fm[index[self.test]].checked=true;};
+	},calculateN=function(){
+		var t=null,c=0;
+		for(var i=0,len=index.length;i<len;i++){score[index[i]]+=questions[i].n};
+		t=score[0];
+		for(var i=1,len=score.length;i<len;i++){
+			if(t>score[i]){
+				c=c;
+			}else{
+				t=score[i];c=i;
+			};
+			continue;
+		};
+		return c;
+	},turnPage=function(e){
+		if(e){
+			var e=e||window.event,target=e.target||e.srcElement;
+			if(/prev/i.test(target.className)){
+				if(--self.test<0){alert('已经是第一题了！');self.test=0;return;};
+			}else if(/next/i.test(target.className)){
+				if(!pushIndex()){return;};
+				if(++self.test>5){alert('已经是最后一题了！');self.test=5;return;};
+			}else if(/result/i.test(target.className)){
+				if(!pushIndex()){return;};
+				rt=calculateN();
+				self.state=1;
+			}else{
+				return;
+			};
+		};
+		layerct.innerHTML=(!self.state)?reQuestion():reAnswer(rt);
+		fm=glb.d.getElementsByName('q');
+		shiftIndex();
+		userState();
+		setStep();
+	},userState=function(){
+		//答题阶段 state:0  结果阶段 state:1
+		if(!self.state){
+			layerct.className='questions';
+			layerbox.className='layerbox quts quts-'+(self.test+1);
+			layer.className='layer';
+		}else{
+			layerct.className='results';
+			layerbox.className='layerbox rest';
+			layer.className='layer '+rasults[rt].c;
+		};
+	},setStep=function(){
+		if(ci){ci.className='';};
+		ci=si[self.test];
+		ci.className='cur';
+	},openLayer=function(e){
+		var e=e||window.event,target=e.target||e.srcElement;
+		if('A'==target.nodeName&&/fsbut/i.test(target.className)){
+			startTest();
+		}else{return;};
+	},exitLayer=function(e){
+		var e=e||window.event,target=e.target||e.srcElement;
+		if('A'==target.nodeName&&/exit/i.test(target.className)){
+			layer.style.display=bmask.style.display='none';
+			if(ci){ci.className='';};
+			glb.delEvent(page,eq,turnPage,false);
+			glb.delEvent(layer,eq,exitLayer,false);
+			if(e.preventDefault){e.preventDefault();}else{e.returnValue=false;};
+		}else{return;};
+	},setEquip=function(){
+		return (glb.brow.isMobile)?'touchstart':'click';
+	},eq=setEquip();
+	//glb.addEvent(self.nav,eq,openLayer,false);
+	startTest();
+	if(glb.brow.isIE6){bmask.style.height=glb.d.body.clientHeight+'px';};
+};
+var main=new Main();
+if(!glb.brow.isMobile){glb.d.body.style.paddingTop='42px';glb.delayLoad("http://ossweb-img.qq.com/images/js/title.js");};
+glb.addEvent(window,'load',function(){
+	glb.d.body.className='allloaded';
+	glb.addEvent(window,'animationend',main.addClassName,false);
+	glb.addEvent(window,'webkitAnimationEnd',main.addClassName,false);
+	glb.delayLoad("http://pingjs.qq.com/ping_tcss_ied.js",function(){if(typeof(pgvMain)=='function'){pgvMain();if(!glb.brow.isMobile){pgvSendClick({hottag:'a20141219sdmh.os.pc'});}else{pgvSendClick({hottag:'a20141219sdmh.os.mobile'});}}});
+});
+glb.wxBright=function(o){
+	var url=o.url,
+		content=o.cot,
+		pic=o.pic,
+		title=o.tit,flag=null;
+	WeixinJSBridge.on("menu:share:timeline",function(){
+		var data={
+			img_url:""+pic,
+			img_width:"120",
+			img_height:"120",
+			link:""+url,
+			desc:""+content,
+			title:""+title
+		};
+		WeixinJSBridge.invoke("shareTimeline",data,function(e){});
+	});
+	WeixinJSBridge.on("menu:share:appmessage",function(){
+		WeixinJSBridge.invoke("sendAppMessage",{
+			img_url:""+pic,
+            img_width:"120",
+            img_height:"120",
+            link:""+url,
+            desc:""+content,
+            title:""+title
+		},function(e){});
+	});
+	WeixinJSBridge.invoke('getNetworkType',{},function(e){
+		function sendType(){
+			switch(e.err_msg){
+				case "network_type:wifi":  //wifi
+					pgvSendClick({hottag:'wx.network.wifi'});
+					break;
+				case "network_type:wwan":  //2G/3G
+					pgvSendClick({hottag:'wx.network.wwan'});
+					break;
+				case "network_type:edge":  //非wifi 包含2g,3g
+					pgvSendClick({hottag:'wx.network.edge'});
+					break;
+				case "network_type:fail":
+					alert('网络断开连接');
+					break;
+				default:  //other
+					pgvSendClick({hottag:'wx.network.other'});
+					break;
+			};
+		};
+		sendType();
+	});
+};
+glb.addEvent(glb.d,'WeixinJSBridgeReady',function(){glb.wxBright({url:glb.d.location,cot:glb.d.title,pic:"http://ossweb-img.qq.com/images/wuxia/act/a20141219sdmh/sharepic.jpg",tit:"【天涯明月刀】天下四盟风云起，笑傲江湖忘相颜~~"});});
+</script><script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/title.js"></script>
+<script src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/index.js"></script>
+
+<script src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/eas.js" type="text/javascript"></script><script src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/dr.htm" type="text/javascript"></script><div class="ost_box ost_bg" id="ost_box" style="position: absolute;"><ul class="ost_inner ost_lsn"><li class="ost_logo ost_h40 ost_fl ost_bg"><a href="http://game.qq.com/?ADTAG=IED.InnerCop.gameWeb.topNav%20target=" _blank"="" class="ost_blnk ost_hdn" title="腾讯游戏logo">腾讯游戏logo</a></li><li id="ost_g" class="ost_ad ost_h40 ost_fl"><img class="ost_nb" id="ost_go" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/383050157917248367149630848823040.jpg" alt=""></li><li class="ost_total ost_ml10 ost_fr"><h3 class="ost_czsh ost_h40"><a target="_blank" href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbanner">成长守护平台</a></h3><h3 class="ost_title ost_h40" id="ost_t">腾讯游戏排行榜<i class="ost_icon_arrow ost_bg"></i><sup class="ost_icon_reddot" id="ost_rank_v"></sup></h3><div class="ost_pop" id="ost_p"></div></li><li class="ost_fr ost_log ost_bg" id="ost_log"></li></ul><div id="ost_d" class="ost_big"></div></div><script type="text/javascript" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/ping_tcss_ied.js"></script><div style="width: 100%;"><div id="_feedback_layout" style="bottom: 0pt; right: 0pt; z-index: 6500; position: fixed;">						<img style="cursor:pointer;" onclick="javascript:window['bugFeedback_121533'].open();" src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/debug_img.jpg" border="0">					</div></div><div id="gpm_history"><a href="javascript:;" id="gpm_history_but" class="gpm_history_dia-btn"></a></div><div id="gpm_history_box" style="display: none;"><div class="gpm_history_alert_backg" style="width: 1903px; height: 1061px; opacity: 0;"></div><div class="gpm_history_alert_frame" style="top: 414px; margin-top: 0px; opacity: 1;"><div></div><div></div><div></div><div class="con"><div></div><div class="con_c"><div class="gpm_history_dia" id="gpm_history_dia">
+	<div class="gpm_history_dia-con">
+		<div class="gpm_history_tp-log">
+			<h3>您来晚了，该活动已结束。我们为您准备了新活动：</h3>
+			<div class="gpm_history_cl gpm_history_main-log">
+				<div class="gpm_history_fl gpm_history_ltleft">
+					<a href="http://wuxia.qq.com/cp/a20151027zhaq/index.htm" title="" target="_blank" onclick="gpm_history_a.record('click','10895','34368')">
+						<img src="%E5%A4%A9%E4%B8%8B%E7%9B%9F%E4%BC%9A-%E5%A4%A9%E6%B6%AF%E6%98%8E%E6%9C%88%E5%88%80-%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E8%85%BE%E8%AE%AF%E6%B8%B8%E6%88%8F_files/1446704199_1436653066_5377_sBigImgFile.jpg" alt="账号安全，下载有奖" width="200px;">
+					</a>
+				</div>
+				<div class="gpm_history_fl gpm_history_rtright">
+					<h4>账号安全，下载有奖</h4>
+					<p>活动时间： 2017-05-03 ~ 2017-10-31</p>
+					<div class="gpm_history_mainIcon">
+						下载QQ安全中心手机版，开启天刀游戏锁与登录保护功能，保障游戏财产安全，从此安全愉快玩耍！使用游戏锁和登录保护功能，还可以领取账号安全大礼包哦！
+					</div>
+				</div>
+			</div>
+			<div class="gpm_history_button gpm_history_cl">
+				<a href="http://wuxia.qq.com/cp/a20151027zhaq/index.htm" title="账号安全，下载有奖" class="gpm_history_fr" target="_blank" onclick="gpm_history_a.record('click','10895','34368')"></a>
+			</div>
+		</div>
+		<em class="gpm_history_dia-close">×</em><em></em>
+	<em></em></div>
+</div> 
+</div><div></div></div><div></div><div></div><div></div></div></div></body></html>
+<!--[if !IE]>|xGv00|fc47d3415945d400570da56c6bcb5010<![endif]-->

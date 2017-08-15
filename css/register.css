@@ -1,0 +1,93 @@
+html，body{
+    height: 100%;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.wrapper{
+    /*text-align: center;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+.wrapper .onload{
+    position: absolute;
+    top:50px;
+    right: 50px;
+    width:418px;
+    height:116px;
+}
+#bar{
+    background: url("../images/register/slogn-home.png") no-repeat 0 0;
+    height:100%;
+    line-height: 240px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.wrapper img {
+    background-position: 50% 50%;
+}
+.wrapper .content{
+    opacity: 0;
+    background: url("../images/register/login-1.png") no-repeat 0  50%;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    margin-left:-400px;
+    overflow: hidden;
+}
+.container {
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0 50px ;
+    line-height: 60px;
+}
+
+.content h3{
+    font: italic 500 30px/100px "miscrosoft yahei";
+    text-align: center;
+}
+.container label {
+    padding-right: 10px;
+    width: 60px;
+    display: inline-block;
+}
+.container  input {
+    font-size: 18px;
+    height: 30px;
+    width: 360px;
+}
+.container  span {
+    margin-left: 25px;
+    padding:2px 15px 0;
+}
+
+.wrong {
+    font-size: 14px;
+    color: crimson;
+    background: url("../images/register/error.png") no-repeat 0 4px;
+
+}
+.right {
+    font-size: 14px;
+    color: green;
+    background: url("../images/register/right.png") no-repeat 0 4px;
+}
+.container a{
+    position: absolute;
+    left: 200px;
+    font: 200 30px "miscrosoft yahei";
+    height: 60px;
+    width: 200px;
+    background: url("../images/register/login--24.png") no-repeat 50%  50%;
+    cursor: pointer;
+    text-indent: -999em;
+}
+
+

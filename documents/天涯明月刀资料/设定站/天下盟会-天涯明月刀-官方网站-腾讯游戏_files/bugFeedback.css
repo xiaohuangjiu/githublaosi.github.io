@@ -1,0 +1,6 @@
+.feedback_tips_to_feedback,.feedback_tips_to_top{width:40px;margin-right:-1px;display:block;float:left;height:35px;text-indent:-999px;overflow:hidden;cursor:pointer;background-image:url(button.png);}
+.feedback_tips_to_feedback{background-position:-39px -140px;}
+.feedback_tips_to_feedback:hover{text-decoration:none;background-position:-39px -175px}
+.feedback_tips_to_top{background-position:-117px -140px}
+.feedback_tips_to_top:hover{background-position:-117px -175px}
+.feedback_tips_to_feedback1{background-image:url(http://ossweb-img.qq.com/images/comm/debug_img.jpg);}/*  |xGv00|c4fb28127ac07c423344ee4567ef7b3a */

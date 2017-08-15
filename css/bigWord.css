@@ -1,0 +1,282 @@
+::-webkit-scrollbar{
+    display: none;
+}
+/*主体部分开始*/
+.maps {
+    width: 100%;
+    height: 1080px;
+    position: relative;
+
+    background: url("../images/guide/bg-12.jpg") no-repeat;
+}
+.maps .head {
+    height: 214px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+/*log区域开始*/
+.maps .logo {
+    width: 172px;
+    height: 61px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background: url("../images/guide/allicon.png") no-repeat 0 0 ;
+}
+
+.maps .logo a{
+    display: inline-block;
+    width: 172px;
+    height: 61px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+/*logo区域结束*/
+/*中间世界观和天刀大世界开始*/
+.maps .nav {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 370px;
+    height: 214px;
+    margin: 0 0 0 -185px;
+}
+
+.nav .an {
+    /*position: relative;*/
+    display: block;
+    float: left;
+    width: 50%;
+    color: #2fc3a3;
+    height: 100%;
+    z-index: 2;
+    text-indent: -999px;
+    /*transition: all .2s ease-in 0s;*/
+}
+.nav .wg {
+    background: url("../images/guide/allicon.png") 0 -319px;
+}
+
+.nav .wm {
+    display: inline-block;
+    background: url("../images/guide/allicon.png") 100% -105px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.nav .line{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 214px;
+    width: 185px;
+    background: url("../images/guide/allicon.png") 0 -105px;
+
+}
+
+    /*中间世界观和天刀大世界结束*/
+
+
+
+/*中间地图部分开始*/
+ .maps .content{
+     width: 970px;
+     height: 770px;
+     margin: 0 auto;
+ }
+
+
+/*中间圆圈开始*/
+
+.circle {
+    width: 467px;
+    height: 467px;
+    margin: 0 auto;
+    background: url("../images/guide/circle.png") no-repeat;
+    position: relative;
+}
+/*中间圆圈结束*/
+/*li定位*/
+
+.places .ls{position:absolute;width:32px;height:32px;}
+.places .hangzhou{top:60px;left:57px;}
+.places .jiangnan{top:0;left:160px;}
+.places .dongyue{top:1px;left:278px;}
+.places .jiuhua{top:58px;left:376px;}
+.places .yanyun{top:157px;left:435px;}
+.places .qinchuan{top:277px;left:435px;}
+.places .xuhai{top:374px;left:380px;}
+.places .xiangzhou{top:435px;left:277px;}
+.places .kaifeng{top:436px;left:156px;}
+.places .jinghu{top:380px;left:60px;}
+.places .yundian{top:277px;left:0;}
+.places .bashu{top:157px;left:1px;}
+
+.places li{
+    background: url("../images/guide/maps.png") no-repeat -190px -54px;
+}
+
+.places .name{
+    display: none;
+    width: 138px;
+    height: 138px;
+    text-align: center;
+    text-indent: -999px;
+    overflow: hidden;
+    line-height: 138px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -73px;
+    margin-left: -69px;
+    background: url("../images/guide/maps.png") ;
+
+}
+.places .nm {
+    display: block;
+    width: 138px;
+    height: 138px;
+
+}
+
+
+.places .hangzhou .nm{background:url(../images/guide/hangzhou_s.png) no-repeat 36px 54px }
+
+.places .jiangnan .nm{background: url(../images/guide/jiangnan_s.png) no-repeat 36px 54px}
+.places .dongyue .nm{background:url(../images/guide/dongyue_s.png) no-repeat 36px 54px}
+.places .jiuhua .nm{background:url(../images/guide/jiuhua_s.png) no-repeat 36px 54px}
+.places .yanyun .nm{background:url(../images/guide/yanyun_s.png) no-repeat 36px 54px}
+.places .qinchuan .nm{background:url(../images/guide/qinchuan_s.png) no-repeat 36px 54px}
+.places .xuhai .nm{background:url(../images/guide/xuhai_s.png) no-repeat 36px 54px}
+.places .xiangzhou .nm{background:url(../images/guide/xiangzhou_s.png) no-repeat 36px 54px}
+.places .kaifeng .nm{background:url(../images/guide/kaifeng_s.png) no-repeat 36px 54px}
+.places .jinghu .nm{background:url(../images/guide/jinghu_s.png) no-repeat 36px 54px}
+.places .yundian .nm{background:url(../images/guide/yundian_s.png) no-repeat 36px 54px}
+.places .bashu .nm{background:url(../images/guide/bashu_s.png) no-repeat 36px 54px}
+
+
+
+
+/*中间文字部分开始*/
+.placesMap {
+    width: 300px;
+    height: 210px;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 27%;
+    left: 18%;
+}
+.placesMap .title {
+    display: block;
+    width: 180px;
+    height: 116px;
+    margin: 0 auto;
+}
+
+.hangzhou .title{background-image:url(../images/guide/hangzhou_b.png);}
+.jiangnan .title{background-image:url(../images/guide/jiangnan_b.png);}
+.dongyue .title{background-image:url(../images/guide/dongyue_b.png);}
+.jiuhua .title{background-image:url(../images/guide/jiuhua_b.png);}
+.yanyun .title{background-image:url(../images/guide/yanyun_b.png);}
+.qinchuan .title{background-image:url(../images/guide/qinchuan_b.png);}
+.xuhai .title{background-image:url(../images/guide/xuhai_b.png);}
+.xiangzhou .title{background-image:url(../images/guide/xiangzhou_b.png);}
+.kaifeng .title{background-image:url(../images/guide/kaifeng_b.png);}
+.jinghu .title{background-image:url(../images/guide/jinghu_b.png);}
+.yundian .title{background-image:url(../images/guide/yundian_b.png);}
+.bashu .title{background-image:url(../images/guide/bashu_b.png);}
+
+
+.placesMap p{
+    width: 300px;
+    height: 42px;
+    color: #fff;
+    font-size: 14px;
+}
+
+
+
+/*中间文字部分结束*/
+/*进入地图标签开始*/
+.placesMap a {
+    display: block;
+    width: 90px;
+    height: 33px;
+    text-align: center;
+    margin: 15px auto 0;
+    line-height: 33px;
+    color: #fff;
+    font-size: 16px;
+    background: #2fc3a3;
+}
+/*进入地图标签结束*/
+
+
+
+
+
+
+
+/*中间文字部分结束*/
+
+
+
+
+
+
+
+
+/*中间地图部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+/*右侧二维码开始*/
+.maps .fds {
+    width: 125px;
+    height: 184px;
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    text-align: center;
+}
+.maps .fd-tips {
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    line-height: 23px;
+}
+
+.maps .fd-ewm {
+    width: 125px;
+
+    overflow: hidden;
+}
+.maps .fd-tov {
+    display: block;
+    margin: 5px 0 0;
+    line-height: 31px;
+    color: #fff;
+    background: #2FC3A3 url("../images/guide/allicon.png") no-repeat -262px 7px;
+    
+}
+
+/*右侧二维码结束*/
+
+
+
+
+
+
+
+

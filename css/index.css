@@ -1,0 +1,751 @@
+/*开始*/
+.header {
+    margin: 0 auto;
+    margin-top: -558px;
+    /*width: 1349px;*/
+    height: 1125px;
+    width: 100%;
+    /*height: 100%;*/
+    background: url(../images/index/header.jpg) no-repeat 50% 0;
+    position: relative;
+}
+
+/*左上角的天涯明月刀*/
+.header-logo {
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+    background: url(../images/index/nav-copy.png) no-repeat 0 0;
+    width: 500px;
+    height: 100px;
+}
+
+.content {
+    position: relative;
+    width: 1000px;
+    height: 1025px;
+    margin: 0 auto;
+    padding-top: 460px;
+}
+
+.view {
+    position: absolute;
+    top: 371px;
+    left: 677px;
+}
+
+/*进入官网和下载客户端按钮*/
+.content .nav {
+    position: relative;
+    width: 526px;
+    height: 100px;
+    margin: 0 0 0 100px;
+    display: block;
+    text-align: left;
+}
+
+.con-nav-left {
+    width: 255px;
+    height: 100px;
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+    margin: 0 16px 0 0;
+    background-color: #2fc3a3;
+    font-size: 26px;
+    line-height: 90px;
+}
+
+.con-nav-right {
+    width: 255px;
+    height: 100px;
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: #cfae69;
+    font-size: 26px;
+    line-height: 90px;
+}
+
+.con-nav-left a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content .nav .clk {
+    display: block;
+    height: 100px;
+    width: 225px;
+    position: relative;
+    width: 100%;
+    color: #ffffff;
+    height: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.clk .eng {
+    display: block;
+    margin: -26px 0 0;
+    font-size: 9px;
+    font-style: normal;
+    color: #000;
+    opacity: .15;
+    line-height: 100%;
+
+}
+
+/*轮播图*/
+.hotrotate {
+    margin: 30px 100px 0;
+    height: 300px;
+    position: relative
+}
+
+.rotate-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.rotate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 810%;
+    height: 100%;
+}
+
+.rotate li {
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 100%;
+    display: block;
+}
+
+.rotate a,
+.rotate img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.totate-number {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    line-height: 36px;
+    height: 36px;
+    background-color: rgba(56, 56, 56, .9);
+
+}
+
+.totate-number .numbox {
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+
+.current-numbox {
+    /*width: 14.28%;*/
+    background-color: #2fc3a3;
+    color: #fff;
+    /*overflow: hidden;*/
+}
+
+.numbox span {
+
+    display: inline-block;
+    width: 13.90%;
+    height: 100%;
+    color: #979696;
+}
+
+/*轮播图结束*/
+.otherlist {
+    height: 105px;
+    width: 1000px;
+    margin-top: 30px;
+
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.otherlist .flos {
+    position: relative;
+    width: 233px;
+    height: 100px;
+    float: left;
+    background-color: #1c1c1c;
+    margin: 0 22px 0 0;
+    border-bottom: 10px solid #1c1c1c;
+
+}
+
+.otherlist li.active {
+    border-color: #cfae69;
+    border-top: 10px;
+}
+
+.otherlist .of {
+    margin-right: 0;
+}
+
+.other-ct {
+    padding: 15px 25px 0;
+}
+
+.otherlist .other-tit {
+    display: block;
+    font-size: 22px;
+    color: #cfae69;
+    font-weight: bold;
+    line-height: 136%;
+}
+
+.otherlist .other-info {
+    display: block;
+    font-size: 13px;
+    color: #aaa;
+    line-height: 115%;
+}
+
+.otherlist .spr-cc {
+    top: 65px;
+    left: 25px;
+    width: 17px;
+    height: 17px;
+    background-position: 100% -257px;
+}
+
+.otherlist .other-pa {
+    background-image: url(../images/index/spr-h.png);
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.otherlist .spr-bc {
+    top: 32px;
+    left: 159px;
+    width: 41px;
+    height: 40px;
+    background-position: 0 -345px;
+}
+
+.otherlist .other-lk {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.spr-fc {
+    background-position: -256px -345px;
+    top: 32px;
+    left: 159px;
+    width: 41px;
+    height: 40px;
+}
+
+.spr-hc {
+    top: 32px;
+    left: 159px;
+    width: 41px;
+    height: 40px;
+    background-position: -511px -345px;
+}
+
+.spr-jc {
+    top: 32px;
+    left: 159px;
+    width: 41px;
+    height: 40px;
+    background-position: -767px -345px;
+}
+
+/*全新内容开始*/
+
+.part-feat {
+    width: 100%;
+    height: 514px;
+    background: url("../images/index/bg2-20160419.jpg") no-repeat 50% 0;
+}
+
+.new-content {
+    width: 1000px;
+    height: 464px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.part-feat h2 {
+    margin: 0 0 50px;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+h2 {
+    display: block;
+    font-weight: bold;
+}
+
+.part-feat h2 .eng {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: tahoma, helvetica, arial, sans-serif;
+    line-height: 100%;
+    color: #dfe5e4;
+}
+
+.part-feat h2 .spc-color {
+    color: #2fc3a3;
+}
+
+.new-con-res {
+    height: 291px;
+    width: 1000px;
+    background: url("../images/index/shendao.jpg") no-repeat;
+}
+
+.new-con-res .rls {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 200px;
+    height: 291px;
+    overflow: hidden;
+}
+
+.spr-1 {
+    display: block;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    width: 54px;
+    height: 54px;
+    margin: 0 0 0 -27px;
+    background-image: url(../images/index/numberspr.png);
+}
+
+.rls h3 {
+    width: 100%;
+    left: 0;
+    top: 130px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 120%;
+    font-weight: bold;
+    z-index: 2;
+    position: absolute;
+    cursor: auto;
+}
+
+.view {
+    position: absolute;
+    width: 110px;
+    top: 371px;
+    left: 677px;
+    text-align: center;
+    color: #000;
+
+}
+
+.rls .view {
+    left: 50%;
+    top: 200px;
+    width: 80px;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 0 0 -40px;
+    background: #3ed2b2;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 12px;
+    z-index: 2;
+}
+
+.rec-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.rls-pb {
+    background-position: -54px 0;
+}
+
+.rls-pc {
+    background-position: -108px 0;
+}
+
+.rls-pd {
+    background-position: -162px 0;
+}
+
+.rls-pe {
+    background-position: -216px 0;
+}
+
+.new-con-res .gbg {
+    display: none;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    padding: 0 0 200%;
+    margin: -100% 0 0 -100%;
+    opacity: 0.7;
+    z-index: 1;
+    cursor: pointer;
+    background-image: url(../images/index/gmk.png);
+
+}
+
+/*右侧导航栏开始*/
+.fds {
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    width: 130px;
+    margin-top: -183px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+.pictips {
+    display: inline-block;
+    padding: 10px 0 8px;
+    line-height: 135%;
+    color: #fff;
+    display: block;
+    height: 34px;
+    background-color: #2fc3a3;
+}
+
+.fds .app-tit {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.app-tit, .app-ifo {
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.area {
+    display: block;
+    margin: 0 0 5px;
+    background: #fff;
+    padding: 4px;
+
+}
+
+.area img {
+    height: 122px;
+    width: 122px;
+}
+
+.fds-ots {
+    position: relative;
+    width: 100%;
+    background-color: #2c2c2c;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.fds-ots .ota {
+    display: block;
+    width: 130px;
+    height: 36px;
+    line-height: 36px;
+    color: #c2c2c2;
+}
+
+.fds-bds {
+    border-top: 1px solid #414141;
+    border-bottom: 1px solid #414141;
+}
+
+.fds-ent {
+    width: 130px;
+    height: 36px;
+    background-color: #2fc3a3;
+    line-height: 36px;
+    text-indent: 30px;
+}
+
+.fds-ent .ota {
+    color: #ffffff;
+}
+
+.fds-eet {
+    background-color: #cfae69;
+}
+
+.totop {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 5px auto 0;
+    background-position: 0 -229px;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+.spr-c {
+    background: url(../images/index/spr-c.png) no-repeat 0 -230px;
+}
+
+.pretag {
+    width: 24px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin: -11px 0 0;
+    display: block;
+    background: url(../images/index/spr-c.png) no-repeat 0 -83px;
+
+}
+
+.prettg {
+    background: url(../images/index/spr-c.png) no-repeat -95px -83px;
+}
+
+/*右侧导航栏完成
+
+
+
+
+/*八荒门派开始*/
+
+.sevnuits {
+    height: 603px;
+    background: url(../images/index/bg-2.jpg) no-repeat 50% 0;
+}
+
+.contaner {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    height: 553px;
+    padding: 50px 0 0;
+    overflow: hidden;
+}
+
+.sevnuits h2 {
+    color: #fff;
+    margin: 0 0 50px;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+.sevnuits h2 .deng {
+    color: #363839;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: tahoma, helvetica, arial;
+    line-height: 100%;
+}
+
+.sevnuits h2 .spc-color {
+    color: #cfae69;
+}
+
+.units {
+    position: absolute;
+    left: 0;
+    top: 97px;
+    width: 100%;
+    height: 422px;
+    overflow: hidden;
+}
+
+/*.units .unit {*/
+    /*display: block;*/
+    /*float: left;*/
+    /*width: 125px;*/
+    /*height: 422px;*/
+/*}*/
+/*.unit-nn{*/
+    /*width: 559px;*/
+/*}*/
+
+.units .unit {
+    display: block;
+    float: left;
+    width: 63px;
+    height: 350px;
+    padding-top: 70px;
+    position: relative;
+
+}
+
+.fold{
+    position: absolute;
+
+}
+.unfold {
+    position: absolute;
+}
+.wdt .fold{
+    display: none;
+}
+
+
+
+.unit-nn{
+    display: block;
+    float: left;
+    width: 559px;
+    height: 350px;
+    padding-top: 70px;
+}
+
+
+/*跳转部分*/
+.part-other{
+    position: relative;
+    height: 650px;
+    width: 100%;
+    background: url(../images/index/p-3.jpg) no-repeat 50% 100%;
+}
+.part-conta{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    padding: 50px 0 0;
+    height: 600px;
+}
+.downnav{
+    padding: 40px 0 0;
+    width: 100%;
+    margin-left: 0;
+    height: 282px;
+}
+.but-a {
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 495px;
+    height: 137px;
+    line-height: 137px;
+    background-image: url(../images/index/spr-c.png);
+    background-position: 0 -278px;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    text-indent: 85px;
+}
+.dn-lf{
+    background-color: #2fc3a3;
+    margin: 0 10px 0 0;
+}
+.guanwang{
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 5;
+}
+.dn-lf .tubiao{
+    position: relative;
+    background: url(../images/index/spr-c.png) no-repeat 4px 0;
+    display: block;
+    width: 70px;
+    height: 60px;
+    top: -50%;
+    left: 120px;
+    margin: -30px 0 0;
+}
+
+.dn-rg{
+    background-color: #cfae69;
+}
+.dn-rg .tubiao{
+    position: relative;
+    background: url(../images/index/spr-c.png) no-repeat -97px 0;
+    display: block;
+    width: 70px;
+    height: 60px;
+    top: -50%;
+    left: 120px;
+    margin: -30px 0 0;
+}
+
+.smbut {
+    display: block;
+    float: left;
+    width: 240px;
+    height: 90px;
+    line-height: 90px;
+    background-color: #2c2c2c;
+    font-size: 22px;
+    margin: 15px 0 0;
+    text-align: center;
+    position: relative;
+}
+.zhinan{
+    margin-right: 15px;
+}
+.huodong{
+    margin-right: 10px;
+}
+.shijie{
+    margin-right: 15px;
+}
+.kezhan{
+    margin-right: 0px;
+}
+.but-rot{
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    font-weight: bold;
+    overflow: hidden;
+    color: #cdcdcd;
+}
+a:hover{
+    color:#fff;
+    opacity: 0.8;
+}
+
